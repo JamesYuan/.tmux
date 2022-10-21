@@ -1,0 +1,23 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.tmux	1	vim	:vi /Users/jyuan/.doom.d/config.el
+pane	base	1	:conf	1	:*	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	base	2	:logs	0	:#-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	opensource	1	:bash	0	:-	1	:/Users/jyuan/projects/opensources/lua-language-server	1	bash	:-bash
+pane	opensource	2	:bash	1	:*	1	:/Users/jyuan/projects/opensources/gost	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	1	:/Users/jyuan/projects/zt/zt-nginx	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	2	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	3	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	1	:/Users/jyuan/projects/zt/zt-java	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	2	:/Users/jyuan/projects/zt/zt-java	1	bash	:-bash
+pane	zerotrust	3	:zt-console	0	:-	1	:/Users/jyuan/projects/zt/zt-console	1	bash	:-bash
+pane	zerotrust	4	:zt-web	1	:*	1	:/Users/jyuan/projects/zt/zt-web/vue	1	node	:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -cc1 -triple x86_64-apple-macosx10.7.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name util.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -relaxed-aliasing -fno-strict-return -masm-verbose -munwind-tables -faligned-alloc-unavailable -target-sdk-version=10.15.6 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -dwarf-column-info -debug-info-kind=standalone -dwarf-version=2 -debugger-tuning=lldb -target-linker-version 609.6 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file ./Release/.deps/Release/obj.target/libsass/src/libsass/src/util.o.d.raw -skip-unused-modulemap-deps -MT Release/obj.target/libsass/src/libsass/src/util.o -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -D NODE_GYP_MODULE_NAME=libsass -D USING_UV_SHARED=1 -D USING_V8_SHARED=1 -D V8_DEPRECATION_WARNINGS=1 -D V8_DEPRECATION_WARNINGS -D V8_IMMINENT_DEPRECATION_WARNINGS -D _DARWIN_USE_64_BIT_INODE=1 -D _LARGEFILE_SOURCE -D _FILE_OFFSET_BITS=64 -D OPENSSL_NO_PINSHARED -D OPENSSL_THREADS -D LIBSASS_VERSION="3.5.5" -I /Users/jyuan/.node-gyp/15.3.0/include/node -I /Users/jyuan/.node-gyp/15.3.0/src -I /Users/jyuan/.node-gyp/15.3.0/deps/openssl/config -I /Users/jyuan/.node-gyp/15.3.0/deps/openssl/openssl/include -I /Users/jyuan/.node-gyp/15.3.0/deps/uv/include -I /Users/jyuan/.node-gyp/15.3.0/deps/zlib -I /Users/jyuan/.node-gyp/15.3.0/deps/v8/include -I ../src/libsass/include -I/usr/local/include -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O3 -Wall -Wendif-labels -W -Wno-unused-parameter -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /Users/jyuan/projects/zt/zt-web/vue/node_modules/node-sass/build -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.7.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o Release/obj.target/libsass/src/libsass/src/util.o -x c++ ../src/libsass/src/util.cpp
+window	base	1	1	:*	1857,316x62,0,0{157x62,0,0,1,158x62,158,0,2}
+window	base	2	0	:#-	ba00,316x62,0,0,3
+window	opensource	1	0	:-	c002,316x73,0,0,5
+window	opensource	2	1	:*	c003,316x73,0,0,6
+window	redis	1	1	:*	ba04,316x62,0,0,7
+window	zerotrust	1	0	:	92fb,316x62,0,0{157x62,0,0,8,158x62,158,0[158x40,158,0,9,158x21,158,41,10]}
+window	zerotrust	2	0	:	e4e0,316x62,0,0[316x31,0,0,13,316x30,0,32,14]
+window	zerotrust	3	0	:-	5d34,316x62,0,0,15
+window	zerotrust	4	1	:*	5d35,316x62,0,0,16
+state	zerotrust	redis

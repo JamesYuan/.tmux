@@ -1,0 +1,20 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.tmux	0	bash	:-bash
+pane	base	1	:conf	0	:-	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	nginx	1	:go	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:bash	0	:-	1	:/Users/jyuan/projects/opensources/lua-language-server	1	bash	:-bash
+pane	opensource	2	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zt	1	:zt-nginx	0	:#-	1	:/Users/jyuan/projects/zt/zt-nginx	1	bash	:-bash
+pane	zt	1	:zt-nginx	0	:#-	2	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt	1	:zt-nginx	0	:#-	3	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt	2	:src	1	:*	1	:/Users/jyuan/projects/zt	1	bash	:-bash
+window	base	1	0	:-	8b57,202x49,0,0{100x49,0,0,1,101x49,101,0,11}
+window	base	2	1	:*	cf9f,202x49,0,0,2
+window	nginx	1	1	:*	6802,202x49,0,0,13
+window	opensource	1	0	:-	cfa6,202x49,0,0,9
+window	opensource	2	1	:*	6808,202x49,0,0,19
+window	redis	1	1	:*	67ff,202x49,0,0,10
+window	zt	1	0	:#-	ae8e,202x49,0,0{100x49,0,0,8,101x49,101,0[101x34,101,0,14,101x14,101,35,21]}
+window	zt	2	1	:*	e803,202x49,0,0,24
+state	nginx	base

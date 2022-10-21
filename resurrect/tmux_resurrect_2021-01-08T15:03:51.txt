@@ -1,0 +1,39 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	1	:QA	0	:Z	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	1	:QA	0	:Z	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	2	:redis	1	:*	1	:/Users/jyuan/projects/tmp/mqttdemo	0	redis-cli	:-bash
+pane	devops	2	:redis	1	:*	2	:/Users/jyuan/projects/tmp/mqttdemo	1	mosquitto_sub	:-bash
+pane	devops	3	:docker	0	:-	1	:/Users/jyuan/projects	1	docker	:-bash
+pane	gatekeeper	1	:bash	0	:-	1	:/Users/jyuan/projects/gatekeeper	0	bash	:-bash
+pane	gatekeeper	1	:bash	0	:-	2	:/Users/jyuan/projects/gatekeeper	1	bash	:-bash
+pane	gatekeeper	2	:bash	1	:*	1	:/Users/jyuan/projects/gatekeeper/forward-transfer	0	bash	:-bash
+pane	gatekeeper	2	:bash	1	:*	2	:/Users/jyuan/projects/tmp/certs	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	2	:bash	0	:#-	1	:/Users/jyuan/projects/opensources/tmp	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-nginx	1	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	3	:zt-console	0	:#	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	4	:zt-web	0	:#	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	5	:sdp-agent	1	:*	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	6	:traefik	0	:#	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrustit	1	:edge	1	:*	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrustit	2	:bash	0	:#-	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+window	base	1	0	:-	d3fd,316x78,0,0,0
+window	base	2	1	:*	d3fe,316x78,0,0,1
+window	devops	1	0	:Z	d67d,316x78,0,0[316x38,0,0,3,316x39,0,39,4]
+window	devops	2	1	:*	40e1,316x78,0,0[316x39,0,0,21,316x38,0,40,24]
+window	devops	3	0	:-	ea32,316x78,0,0,23
+window	gatekeeper	1	0	:-	5685,316x78,0,0[316x38,0,0,6,316x39,0,39,7]
+window	gatekeeper	2	1	:*	1489,316x78,0,0[316x40,0,0,8,316x37,0,41,10]
+window	opensource	1	1	:*	6a30,316x78,0,0,11
+window	opensource	2	0	:#-	6a31,316x78,0,0,12
+window	zerotrust	1	0	:-	6a32,316x78,0,0,13
+window	zerotrust	2	0	:#	6a33,316x78,0,0,14
+window	zerotrust	3	0	:#	6a34,316x78,0,0,15
+window	zerotrust	4	0	:#	6a35,316x78,0,0,16
+window	zerotrust	5	1	:*	6a36,316x78,0,0,17
+window	zerotrust	6	0	:#	6a37,316x78,0,0,18
+window	zerotrustit	1	1	:*	6a38,316x78,0,0,19
+window	zerotrustit	2	0	:#-	ea2f,316x78,0,0,20
+state	gatekeeper	zerotrustit

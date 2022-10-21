@@ -1,0 +1,20 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	1	:conf	1	:*	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	nginx	1	:bash	1	:*	1	:/Users/jyuan/projects/lua	1	bash	:-bash
+pane	opensource	1	:bash	0	:-	1	:/Users/jyuan/projects/opensources/lua-language-server	1	bash	:-bash
+pane	opensource	2	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zt-nginx	1	:vagrant	0	:-	1	:/Users/jyuan/projects/zt/zt-nginx	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/projects/zt/zt-nginx/.vagrant/machines/zt-nginx/virtualbox/private_key
+pane	zt-nginx	1	:vagrant	0	:-	2	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt-nginx	1	:vagrant	0	:-	3	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt-nginx	2	:src	1	:*	1	:/Users/jyuan/projects/zt/zt-nginx	1	bash	:-bash
+window	base	1	1	:*	8b57,202x49,0,0{100x49,0,0,1,101x49,101,0,11}
+window	base	2	0	:-	cf9f,202x49,0,0,2
+window	nginx	1	1	:*	6802,202x49,0,0,13
+window	opensource	1	0	:-	cfa6,202x49,0,0,9
+window	opensource	2	1	:*	6808,202x49,0,0,19
+window	redis	1	1	:*	67ff,202x49,0,0,10
+window	zt-nginx	1	0	:-	ae8e,202x49,0,0{100x49,0,0,8,101x49,101,0[101x34,101,0,14,101x14,101,35,21]}
+window	zt-nginx	2	1	:*	e803,202x49,0,0,24
+state	zt-nginx	base

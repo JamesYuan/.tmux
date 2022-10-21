@@ -1,0 +1,59 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	3	:hugo	0	:-	1	:/Users/jyuan/.vim/pack/themes/start	1	bash	:-bash
+pane	logs	1	:ssh	0	:##-Z	1	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	1	:ssh	0	:##-Z	2	:/Users/jyuan	1	ssh	:ssh root@192.168.0.115
+pane	logs	2	:bash	0	:##Z	1	:/Users/jyuan/org/work/scripts	1	bash	:-bash
+pane	logs	2	:bash	0	:##Z	2	:/Users/jyuan/org/work/scripts	0	bash	:-bash
+pane	logs	3	:bash	1	:*Z	1	:/Users/jyuan/projects/zerotrust/firefox-apkbuild	0	bash	:-bash
+pane	logs	3	:bash	1	:*Z	2	:/Users/jyuan/projects/zerotrust/firefox-apkbuild	1	docker	:/usr/local/bin/com.docker.cli run --rm -e RSA_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----\012MIIEpQIBAAKCAQEArcpLyXooEnEUxisT38ysZAVOd8bKRpVLX//TsFMuEtWjZmYY\012lGFlhKqC3ghTJrAN9IJ7KJBrtBr8XfYSZnyUYf5/njSty73bnPg9WyKQox5bI95o\012sgLtVuJ2rdIeJXJv76jYv6KjWb6wF3uQmECxxNnHYbkOqzbu+vH+rAn32avs8ruM\0126d85zsUuhex3ADwArLNY6LPz9byhT7+WJdbO9dbcv50xjPt9wfNMqsXrWxFpw1Tz\012QL8WlWQs/u62t/8Thhbdcz30+Si8wSU9/bGfSaMBIgfZmIkDnCypzrZiLW8WeIiz\012eZJGWj1tDffyBjQrhiWEsNMD4hQJc3zXPOwrqQIDAQABAoIBAQCZu2qhFkseTSO4\012TODuxwn0DHGmKJZEK8qaaB5lSp9mD8/URBoYH7QC0CalrC2J+pDNqyKw9lgf4QM/\012Ru5t9GP573wKgcT/hrofN8RmusPBV5f9ub9ZQJeclQWwqz75lyqHkQ/zLTZcq/7v\012NuHonMnkPVVPD7l3IUfzel/y5Xp29FaclTHCQN2P+buzsxUJ+pXqfWjjihIU8oR1\012c4LH1ks/Im5oZCv+Ia/ASifA4pQCWBZEC3Sp+OYfxJ1SEfHh+Fy06ETB7Et1eKZh\012FU9YyYie1OlcPhXV9Kyn39oUqg/FndDQJ/Ok8Ou8N/GdVhKjiF/tB/njUZJ/mpz/\012c7eZl0fVAoGBANUKkgx+zSMGNLwZo2Xay/cMr0LkJj6qH5AfXaVykYcPEWhLq+sj\01223X7Vprf4Xbs8seXWOCjG2cepTR7SIRzR0nYZZ9/0kBxB2JpUwbtN9/Z4BOHoB8l\012CeNlelBeIy9zsH2NPLVZ40wgpnkgFaalgPo7hH16RtcJMXbZ3A8eWl97AoGBANDV\012ipUiq4lAdSiPxIkHBd9KPJXKZIBL2E3Qd0/Z+IYyxz/vnVY+mhbgzYrcvEH/QUOo\012qJaFC4hRnmGjq/j1vUhVKdzFOxAc8sVRc1ENG1gPV+wlLhsGjQmX37+4xgOI6VYh\012KZOQvW+1P4LNg0P3G67IorzKniYD3lFKF06qH8YrAoGAUQLBAMFjDjN48CIrsTqf\012HuWS67PIG0Ij2HEk8hn73sjLDMbhq/upo1ac2y3RFaEKvPz/TgSYEgFkPu22aK9R\012Z3JDSoCXmeuhLDny2YpxGc1G2QZUzCMQfIkFFvSFGrE6ZrPDZw60USmFREAAG6uJ\012vR3Oxswtje2wAorblGAta2sCgYEAgxyupzdfLwrTA6ZPpCBOpYP8SacKNipoIWKy\012peWZzNdwlUmhJJalM5vsMDSp1V2m4g2v2uCo/usPXwndXK8cKZ+easdBb7pdCVk7\0125zUtZ7oqX05whfM09ULu7XXajDmXFcY4TjdfWBUZTMwuj6tDLBc3ZQRpCkD/gVXd\012EDxrOoUCgYEAjjLPeuFhjIOsFIyM/z53X2Ey7y6EBMBz+g+BduvLbu/8HYqdvyor\012F3NWOwGKNp7az8VMFudsSXlRdkTcfBKJ7wRFbv8n4L7p/H99temJ+FU8CB8u6XnW\012p7B12Mt0qsW88xWT4PvEc3do0TgmMolGVWQ6MRxfUQCCVre/ZPAaqoc=\012-----END RSA PRIVATE KEY----- -e RSA_PRIVATE_KEY_NAME=key.rsa -v /Users/jyuan/projects/zerotrust/firefox-apkbuild:/home/builder/package -v /Users/jyuan/projects/zerotrust/firefox-apkbuild/packages:/packages andyshinn/alpine-abuild:v3.16-mirror
+pane	opensource	1	:bash	1	:##*	1	:/Users/jyuan/projects/devops/shell	0	bash	:-bash
+pane	opensource	1	:bash	1	:##*	2	:/Users/jyuan/projects/opensources/rbi/docker-alpine-abuild/edge	1	bash	:-bash
+pane	opensource	2	:bash	0	:	1	:/Users/jyuan/projects/opensources/HBSHell	1	bash	:-bash
+pane	opensource	3	:bash	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	4	:bash	0	:-	1	:/Users/jyuan/projects/opensources/go	1	bash	:-bash
+pane	wazuh	1	:kibana	0	:	1	:/Users/jyuan/projects/wazuh/kibana	1	vim	:vim INSTALL.md
+pane	wazuh	2	:vagrant	0	:##-Z	1	:/Users/jyuan/projects/wazuh/wazuh	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	0	:##-Z	2	:/Users/jyuan/projects/wazuh/wazuh	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	3	:138	1	:*	1	:/Users/jyuan/projects/wazuh/tmp	1	ssh	:-bash
+pane	wazuh	4	:226	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	wazuh	4	:226	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	wazuh	5	:146	0	:	1	:/Users/jyuan/org/work/scripts	1	bash	:-bash
+pane	wazuh	6	:253	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	wazuh	6	:253	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	wazuh	7	:ssh	0	:	1	:/Users/jyuan/projects/wazuh/wazuh	1	bash	:-bash
+pane	wazuh	7	:ssh	0	:	2	:/Users/jyuan/projects/wazuh/wazuh	0	bash	:-bash
+pane	zerotrust	1	:zt-web	1	:##*	1	:/Users/jyuan/projects/zerotrust/zt-web	0	bash	:-bash
+pane	zerotrust	1	:zt-web	1	:##*	2	:/Users/jyuan/projects/zerotrust/tmp/docker_origin	1	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	vim	:vim firefox.sh
+pane	zerotrust	6	:zt-rbi	0	:-	3	:/Users/jyuan/projects/opensources/rbi/noVNC	0	bash	:-bash
+window	base	1	1	:*	c51d,281x65,0,0,0
+window	base	2	0	:	c51e,281x65,0,0,1
+window	base	3	0	:-	c51f,281x65,0,0,2
+window	logs	1	0	:##-Z	45e3,281x65,0,0{139x65,0,0,3,141x65,140,0,4}
+window	logs	2	0	:##Z	4996,281x65,0,0{140x65,0,0,5,140x65,141,0,6}
+window	logs	3	1	:*Z	258b,281x65,0,0[281x32,0,0,7,281x32,0,33,8]
+window	opensource	1	1	:##*	6522,281x65,0,0{140x65,0,0,9,140x65,141,0,10}
+window	opensource	2	0	:	62c0,281x65,0,0,11
+window	opensource	3	0	:	62c1,281x65,0,0,12
+window	opensource	4	0	:-	62c2,281x65,0,0,13
+window	wazuh	1	0	:	62c3,281x65,0,0,14
+window	wazuh	2	0	:##-Z	0bb2,281x65,0,0{140x65,0,0,15,140x65,141,0,16}
+window	wazuh	3	1	:*	62c8,281x65,0,0,19
+window	wazuh	4	0	:	e951,281x65,0,0[281x32,0,0,20,281x32,0,33,21]
+window	wazuh	5	0	:	e2c1,281x65,0,0,22
+window	wazuh	6	0	:	6956,281x65,0,0[281x32,0,0,23,281x32,0,33,24]
+window	wazuh	7	0	:	6959,281x65,0,0[281x32,0,0,25,281x32,0,33,26]
+window	zerotrust	1	1	:##*	aab4,281x65,0,0{138x65,0,0,27,142x65,139,0,28}
+window	zerotrust	2	0	:	e2c8,281x65,0,0,29
+window	zerotrust	3	0	:	62c0,281x65,0,0,30
+window	zerotrust	4	0	:	2954,281x65,0,0[281x32,0,0,31,281x32,0,33,32]
+window	zerotrust	5	0	:	62c3,281x65,0,0,33
+window	zerotrust	6	0	:-	470d,281x65,0,0{140x65,0,0,34,140x65,141,0[140x42,141,0,35,140x22,141,43,36]}
+state	logs	wazuh

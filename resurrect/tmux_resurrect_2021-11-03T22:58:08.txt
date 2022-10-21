@@ -1,0 +1,55 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	devops	1	:QA	0	:	1	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	devops	1	:QA	0	:	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	devops	1	:QA	0	:	3	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	devops	2	:redis	0	:-	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:-	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:bash	1	:##*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	3	:bash	1	:##*	2	:/Users/jyuan/projects/go/pprof	0	bash	:-bash
+pane	logs	1	:bash	0	:##-Z	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	logs	1	:bash	0	:##-Z	2	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	logs	1	:bash	0	:##-Z	3	:/Users/jyuan/projects/logs	0	bash	:-bash
+pane	logs	2	:bash	1	:*	1	:/Users/jyuan/projects/zerotrust	1	bash	:-bash
+pane	logs	2	:bash	1	:*	2	:/Users/jyuan/projects/opensources/java/thingsboard/ui-ngx/node_modules/rxjs/src	0	bash	:-bash
+pane	opensource	1	:ics	0	:##Z	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	opensource	1	:ics	0	:##Z	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	opensource	2	:rust	1	:*	1	:/Users/jyuan/projects/rust	1	bash	:-bash
+pane	opensource	3	:docker	0	:	1	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	3	:docker	0	:	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	3	:docker	0	:	3	:/Users/jyuan	1	bash	:-bash
+pane	opensource	3	:docker	0	:	4	:/Users/jyuan/projects/opensources/interview/coding-interview-university	0	bash	:-bash
+pane	opensource	4	:bash	0	:##-Z	1	:/Users/jyuan/projects/rust/demo	0	bash	:-bash
+pane	opensource	4	:bash	0	:##-Z	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:##	1	:/Users/jyuan/projects/zerotrust/zt-tenant	1	node	:-bash
+pane	zerotrust	4	:zt-console	0	:##	2	:/Users/jyuan/projects/zerotrust/zt-console	0	node	:-bash
+pane	zerotrust	5	:zt-java	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-java	0	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:-	2	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+window	base	1	1	:*	c91d,281x66,0,0,0
+window	base	2	0	:-	267d,281x66,0,0[281x32,0,0,1,281x33,0,33,2]
+window	base	3	0	:	c920,281x66,0,0,3
+window	devops	1	0	:	93dc,281x66,0,0[281x32,0,0{140x32,0,0,4,140x32,141,0,5},281x33,0,33,6]
+window	devops	2	0	:-	4d8c,281x66,0,0[281x33,0,0,7,281x32,0,34,8]
+window	devops	3	1	:##*	d30c,281x66,0,0[281x32,0,0,9,281x33,0,33,10]
+window	logs	1	0	:##-Z	abda,281x66,0,0[281x33,0,0{140x33,0,0,33,140x33,141,0,36},281x32,0,34,35]
+window	logs	2	1	:*	c3b1,157x39,0,0[157x19,0,0,37,157x19,0,20,38]
+window	opensource	1	0	:##Z	7b52,281x66,0,0[281x33,0,0,11,281x32,0,34,30]
+window	opensource	2	1	:*	64c2,281x66,0,0,13
+window	opensource	3	0	:	5026,281x66,0,0[281x32,0,0{140x32,0,0,14,140x32,141,0,16},281x33,0,33{145x33,0,33,17,135x33,146,33,18}]
+window	opensource	4	0	:##-Z	29da,281x66,0,0[281x32,0,0,19,281x33,0,33,20]
+window	zerotrust	1	0	:	cbee,281x66,0,0{138x66,0,0,21,142x66,139,0,22}
+window	zerotrust	2	0	:	e4c2,281x66,0,0,23
+window	zerotrust	3	0	:	e4c3,281x66,0,0,24
+window	zerotrust	4	0	:##	7b57,281x66,0,0[281x33,0,0,25,281x32,0,34,31]
+window	zerotrust	5	0	:-	fb58,281x66,0,0[281x33,0,0,26,281x32,0,34,32]
+window	zerotrust	6	1	:##*	bb1e,281x66,0,0[281x32,0,0{140x32,0,0,27,140x32,141,0,28},281x33,0,33,29]
+state	logs	opensource

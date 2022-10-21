@@ -1,0 +1,18 @@
+pane	base	1	:bash	0	:#-	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	1	:bash	0	:#-	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	dev	1	:vagrant	1	:*	1	:/Users/jyuan/projects/vagrant	1	bash	:-bash
+pane	dev	1	:vagrant	1	:*	2	:/Users/jyuan/projects/vagrant	0	bash	:-bash
+pane	dev	2	:dev	0	:-Z	1	:/Users/jyuan/projects/vagrant	1	vim	:-bash
+pane	dev	2	:dev	0	:-Z	2	:/Users/jyuan/projects/vagrant	0	bash	:-bash
+pane	nginx	1	:bash	1	:*	1	:/Users/jyuan/projects/nginx	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+window	base	1	0	:#-	8b57,202x49,0,0{100x49,0,0,1,101x49,101,0,11}
+window	base	2	1	:*	cf9f,202x49,0,0,2
+window	dev	1	1	:*	8b5c,202x49,0,0{100x49,0,0,8,101x49,101,0,14}
+window	dev	2	0	:-Z	6c26,202x49,0,0[202x24,0,0,12,202x24,0,25,16]
+window	nginx	1	1	:*	6802,202x49,0,0,13
+window	opensource	1	1	:*	cfa6,202x49,0,0,9
+window	redis	1	1	:*	67ff,202x49,0,0,10
+state	dev	base

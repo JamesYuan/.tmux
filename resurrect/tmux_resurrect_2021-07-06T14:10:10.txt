@@ -1,0 +1,43 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	devops	1	:QA	0	:-	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	1	:QA	0	:-	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:bash	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	3	:bash	1	:*	2	:/Users/jyuan/projects/go/pprof	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:-	1	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	1	:vagrant	0	:-	2	:/Users/jyuan/projects	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	1	:vagrant	0	:-	3	:/Users/jyuan/projects/zerotrust	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	1	:vagrant	0	:-	4	:/Users/jyuan/projects/zerotrust	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	2	:bash	0	:	1	:/Users/jyuan/projects/opensources/go/test	0	bash	:-bash
+pane	opensource	2	:bash	0	:	2	:/Users/jyuan/projects/zerotrust/sdp-agent	1	go	:/usr/local/Cellar/go/1.15.6/libexec/pkg/tool/darwin_amd64/trace trace.out
+pane	opensource	3	:bash	0	:	1	:/Users/jyuan/projects/opensources/linux/kernel/proj/linux-4.9.229	1	bash	:-bash
+pane	opensource	4	:bash	1	:##*Z	1	:/Users/jyuan/projects/opensources/linux/kernel/proj/linux-4.9.229	1	bash	:-bash
+pane	opensource	4	:bash	1	:##*Z	2	:/Users/jyuan/projects/opensources/linux/kernel/proj/linux-4.9.229	0	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-console	1	node	:node /Users/jyuan/projects/zerotrust/zt-console/node_modules/.bin/vue-cli-service serve
+pane	zerotrust	5	:zt-java	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:##Z	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:##Z	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:##Z	3	:/Users/jyuan/projects/zerotrust/zt-rbi	0	bash	:-bash
+window	base	1	1	:*	d51d,281x69,0,0,0
+window	base	2	0	:-	7780,281x69,0,0[281x34,0,0,1,281x34,0,35,2]
+window	devops	1	0	:-	f785,281x69,0,0[281x34,0,0,3,281x34,0,35,5]
+window	devops	2	0	:	1e8d,281x69,0,0[281x35,0,0,6,281x33,0,36,7]
+window	devops	3	1	:*	7c0e,281x69,0,0[281x34,0,0,8,281x34,0,35,31]
+window	opensource	1	0	:-	5d94,281x69,0,0{140x69,0,0[140x34,0,0,9,140x34,0,35,34],140x69,141,0[140x34,141,0,11,140x34,141,35,33]}
+window	opensource	2	0	:	90b0,281x69,0,0{140x69,0,0,13,140x69,141,0,14}
+window	opensource	3	0	:	6ac4,281x69,0,0,15
+window	opensource	4	1	:##*Z	d0b1,281x69,0,0{140x69,0,0,26,140x69,141,0,32}
+window	zerotrust	1	0	:	afb3,281x69,0,0{138x69,0,0,16,142x69,139,0,17}
+window	zerotrust	2	0	:	6ac7,281x69,0,0,18
+window	zerotrust	3	0	:	6ac8,281x69,0,0,19
+window	zerotrust	4	0	:-	eabf,281x69,0,0,20
+window	zerotrust	5	1	:*	eac0,281x69,0,0,21
+window	zerotrust	6	0	:##Z	9e23,281x69,0,0[281x34,0,0{140x34,0,0,22,140x34,141,0,23},281x34,0,35,24]
+state	devops	zerotrust

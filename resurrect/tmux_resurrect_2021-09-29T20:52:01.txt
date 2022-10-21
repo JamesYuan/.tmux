@@ -1,0 +1,46 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:/usr/local/Cellar/emacs-plus@27/27.2/Emacs.app/Contents/MacOS/Emacs --no-site-file --script /Users/jyuan/.emacs.d/bin/doom -- upgrade -p
+pane	base	2	:logs	0	:	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	base	2	:logs	0	:	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:-	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	devops	1	:QA	0	:-	1	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	devops	1	:QA	0	:-	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	devops	1	:QA	0	:-	3	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:bash	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	3	:bash	1	:*	2	:/Users/jyuan/projects/go/pprof	0	bash	:-bash
+pane	opensource	1	:ics	0	:	1	:/Users/jyuan/projects/opensources/ics/ics2020	1	bash	:-bash
+pane	opensource	2	:rust	0	:##Z	1	:/Users/jyuan/projects/opensources/rust/rust-analyzer	0	bash	:-bash
+pane	opensource	2	:rust	0	:##Z	2	:/Users/jyuan/projects/rust	1	bash	:-bash
+pane	opensource	3	:docker	0	:-	1	:/Users/jyuan/projects/opensources/go/gost	0	gost-darwin-amd	:./bin/gost-darwin-amd64 -L relay+tcp://:12345
+pane	opensource	3	:docker	0	:-	2	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	opensource	3	:docker	0	:-	3	:/Users/jyuan/projects/tmp/gw	0	bash	:-bash
+pane	opensource	3	:docker	0	:-	4	:/Users/jyuan/projects/opensources/interview/coding-interview-university	0	bash	:-bash
+pane	opensource	4	:bash	1	:##!*Z	1	:/Users/jyuan/projects/rust/riddles	0	bash	:-bash
+pane	opensource	4	:bash	1	:##!*Z	2	:/Users/jyuan/projects/rust/riddles	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:##Z	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:##Z	2	:/Users/jyuan/projects/nodejs	0	ssh	:ssh dev1@36.110.69.140
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:vi /Users/jyuan/.aliases
+window	base	1	1	:*	d51d,281x69,0,0,0
+window	base	2	0	:	7780,281x69,0,0[281x34,0,0,1,281x34,0,35,2]
+window	base	3	0	:-	d520,281x69,0,0,3
+window	devops	1	0	:-	e73e,281x69,0,0[281x34,0,0{140x34,0,0,4,140x34,141,0,5},281x34,0,35,6]
+window	devops	2	0	:	9e8f,281x69,0,0[281x35,0,0,7,281x33,0,36,8]
+window	devops	3	1	:*	7c0e,281x69,0,0[281x34,0,0,9,281x34,0,35,10]
+window	opensource	1	0	:	6ac0,281x69,0,0,11
+window	opensource	2	0	:##Z	90af,281x69,0,0{140x69,0,0,12,140x69,141,0,13}
+window	opensource	3	0	:-	9485,281x69,0,0[281x34,0,0{140x34,0,0,14,140x34,141,0,15},281x34,0,35{145x34,0,35,16,135x34,146,35,17}]
+window	opensource	4	1	:##!*Z	4e58,281x69,0,0[281x34,0,0,33,281x34,0,35,34]
+window	zerotrust	1	0	:##Z	2fb2,281x69,0,0{138x69,0,0,24,142x69,139,0,25}
+window	zerotrust	2	0	:	eac5,281x69,0,0,26
+window	zerotrust	3	0	:	eac6,281x69,0,0,27
+window	zerotrust	4	0	:-	eac7,281x69,0,0,28
+window	zerotrust	5	0	:	eac8,281x69,0,0,29
+window	zerotrust	6	1	:##*	5e21,281x69,0,0[281x34,0,0{140x34,0,0,30,140x34,141,0,31},281x34,0,35,32]
+state	base	zerotrust

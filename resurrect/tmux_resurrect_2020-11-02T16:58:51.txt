@@ -1,0 +1,13 @@
+pane	base	1	:bash	1	:*	1	:/Users/jyuan/.emacs.d	1	Emacs	:/usr/local/Cellar/emacs-plus@27/27.1/Emacs.app/Contents/MacOS/Emacs
+pane	cloud_manager	1	:cloud_deploy	0	:-	1	:/Users/jyuan/projects/noc/cloud_deploy	0	bash	:-bash
+pane	cloud_manager	1	:cloud_deploy	0	:-	2	:/Users/jyuan/projects/noc/cloud_deploy	1	bash	:-bash
+pane	cloud_manager	2	:bash	1	:*	1	:/Users/jyuan/projects/noc/cloud_deploy/tmp	0	bash	:-bash
+pane	cloud_manager	2	:bash	1	:*	2	:/Users/jyuan/projects/noc/cloud_deploy/tmp	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+window	base	1	1	:*	b25e,236x60,0,0,1
+window	cloud_manager	1	0	:-	2eca,236x60,0,0[236x30,0,0,2,236x29,0,31,4]
+window	cloud_manager	2	1	:*	2ecd,236x60,0,0[236x30,0,0,3,236x29,0,31,6]
+window	opensource	1	1	:*	b262,236x60,0,0,5
+window	redis	1	1	:*	b264,236x60,0,0,7
+state	redis	opensource

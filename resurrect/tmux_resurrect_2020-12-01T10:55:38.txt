@@ -1,0 +1,29 @@
+pane	base	1	:conf	0	:#-	1	:/Users/jyuan/.tmux	0	vim	:vi /Users/jyuan/.doom.d/config.el
+pane	base	1	:conf	0	:#-	2	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/opt/license-server	1	bash	:-bash
+pane	devops	1	:docker	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/gatekeeper	1	bash	:-bash
+pane	opensource	2	:bash	0	:#	1	:/Users/jyuan/projects/opensources/gost	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	2	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	3	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	1	:zt-nginx	0	:	4	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	2	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	3	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	3	:zt-console	0	:	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	4	:zt-web	0	:-	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	5	:sdp-agent	1	:*	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+window	base	1	0	:#-	6edd,253x62,0,0{126x62,0,0,0,126x62,127,0,1}
+window	base	2	1	:*	b95f,253x62,0,0,2
+window	devops	1	1	:*	5ce5,253x62,0,0,16
+window	opensource	1	1	:*	b960,253x62,0,0,3
+window	opensource	2	0	:#	b961,253x62,0,0,4
+window	redis	1	1	:*	ba02,316x62,0,0,5
+window	zerotrust	1	0	:	a895,253x62,0,0[253x11,0,0,6,253x11,0,12,7,253x10,0,24,8,253x27,0,35,9]
+window	zerotrust	2	0	:	ce7c,253x62,0,0[253x14,0,0,10,253x14,0,15,11,253x32,0,30,12]
+window	zerotrust	3	0	:	5ce2,253x62,0,0,13
+window	zerotrust	4	0	:-	5ce3,253x62,0,0,14
+window	zerotrust	5	1	:*	5ce6,253x62,0,0,17
+state	zerotrust	opensource

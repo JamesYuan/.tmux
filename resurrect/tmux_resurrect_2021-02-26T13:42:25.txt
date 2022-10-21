@@ -1,0 +1,47 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	base	3	:bash	0	:	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	1	:QA	1	:*	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	1	:QA	1	:*	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan/projects/zerotrust/demo/mqtt	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan/projects/zerotrust/demo/mqtt	1	bash	:-bash
+pane	devops	3	:bash	0	:-	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:	1	:/Users/jyuan/projects/opensources/go/gost	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	1	:vagrant	0	:	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:	3	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:	4	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	2	:bash	0	:-Z	1	:/Users/jyuan/projects	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	opensource	2	:bash	0	:-Z	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	2	:bash	0	:-Z	3	:/Users/jyuan/projects/opensources/algorithms	0	bash	:-bash
+pane	opensource	3	:bash	1	:*Z	1	:/Users/jyuan/projects/opensources/lisp/lisp-koans	0	bash	:-bash
+pane	opensource	3	:bash	1	:*Z	2	:/Users/jyuan/projects/opensources/lynis	1	bash	:/usr/sbin/lsof -i -P
+pane	opensource	4	:bash	0	:#	1	:/Users/jyuan/projects/exercism/go	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#-	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#-	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	2	:zt-web	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	2	:zt-web	1	:*	2	:/Users/jyuan/projects/zerotrust/zt-web	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:#Z	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:./sdp
+pane	zerotrust	3	:sdp-agent	0	:#Z	2	:/Users/jyuan/projects/zerotrust/sdp-agent	0	bash	:-bash
+pane	zerotrust	4	:traefik	0	:#	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	5	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-console	1	node	:node /Users/jyuan/projects/zerotrust/zt-console/node_modules/.bin/vue-cli-service serve
+pane	zerotrust	6	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	7	:bash	0	:#Z	1	:/Users/jyuan/projects/zerotrust/zt-proxy	1	bash	:-bash
+pane	zerotrust	7	:bash	0	:#Z	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+window	base	1	1	:*	d3fd,316x78,0,0,0
+window	base	2	0	:-	d3fe,316x78,0,0,1
+window	base	3	0	:	6a31,316x78,0,0,31
+window	devops	1	1	:*	1ec7,176x46,0,0[176x22,0,0,2,176x23,0,23,3]
+window	devops	2	0	:	45cc,176x46,0,0[176x23,0,0,4,176x22,0,24,5]
+window	devops	3	0	:-	c743,176x46,0,0,6
+window	opensource	1	0	:	20ed,316x78,0,0[316x39,0,0{160x39,0,0,7,155x39,161,0,8},316x38,0,40{140x38,0,40,9,175x38,141,40,10}]
+window	opensource	2	0	:-Z	fb97,316x78,0,0{159x78,0,0[159x39,0,0,11,159x38,0,40,12],156x78,160,0,13}
+window	opensource	3	1	:*Z	c0ea,316x78,0,0[316x39,0,0,28,316x38,0,40,29]
+window	opensource	4	0	:#	6a34,316x78,0,0,15
+window	zerotrust	1	0	:#-	3ca7,316x78,0,0[316x34,0,0,16,316x43,0,35,17]
+window	zerotrust	2	1	:*	a649,316x78,0,0{157x78,0,0,18,158x78,158,0,19}
+window	zerotrust	3	0	:#Z	fc9e,316x78,0,0[316x34,0,0,20,316x43,0,35,21]
+window	zerotrust	4	0	:#	ea31,316x78,0,0,22
+window	zerotrust	5	0	:	ea32,316x78,0,0,23
+window	zerotrust	6	0	:	ea33,316x78,0,0,24
+window	zerotrust	7	0	:#Z	7ca6,316x78,0,0[316x34,0,0,25,316x43,0,35,26]
+state	opensource	zerotrust

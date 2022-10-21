@@ -1,0 +1,43 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	devops	1	:QA	0	:-	1	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	devops	1	:QA	0	:-	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	devops	1	:QA	0	:-	3	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:bash	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	3	:bash	1	:*	2	:/Users/jyuan/projects/go/pprof	0	bash	:-bash
+pane	opensource	1	:ics	0	:	1	:/Users/jyuan/projects/opensources/ics/ics2020	1	bash	:-bash
+pane	opensource	2	:vagrant	1	:##*Z	1	:/Users/jyuan/projects/go/mac-ip-change-notifier	0	bash	:-bash
+pane	opensource	2	:vagrant	1	:##*Z	2	:/Users/jyuan/projects/go/ipchange	1	bash	:-bash
+pane	opensource	3	:docker	0	:-	1	:/Users/jyuan/projects/opensources/go	1	bash	:-bash
+pane	opensource	3	:docker	0	:-	2	:/Users/jyuan/projects/opensources/algorithms	0	bash	:-bash
+pane	opensource	4	:bash	0	:##	1	:/Users/jyuan/projects/opensources/clojure	0	bash	:-bash
+pane	opensource	4	:bash	0	:##	2	:/Users/jyuan/projects/opensources/clojure	1	bash	:-bash
+pane	opensource	4	:bash	0	:##	3	:/Users/jyuan/projects/opensources/clojure	0	bash	:-bash
+pane	zerotrust	1	:zt-web	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	1	:*	2	:/Users/jyuan/projects/go/mac-ip-change-notifier	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:##-	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	docker	:/usr/local/bin/com.docker.cli stats
+pane	zerotrust	6	:zt-rbi	0	:##-	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	docker	:/usr/local/bin/com.docker.cli exec -it firefox /bin/sh
+pane	zerotrust	6	:zt-rbi	0	:##-	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+window	base	1	1	:*	d51d,281x69,0,0,0
+window	base	2	0	:-	7780,281x69,0,0[281x34,0,0,1,281x34,0,35,2]
+window	devops	1	0	:-	673b,281x69,0,0[281x34,0,0{140x34,0,0,3,140x34,141,0,4},281x34,0,35,5]
+window	devops	2	0	:	1e8d,281x69,0,0[281x35,0,0,6,281x33,0,36,7]
+window	devops	3	1	:*	f791,281x69,0,0[281x34,0,0,8,281x34,0,35,9]
+window	opensource	1	0	:	59cf,157x41,0,0,10
+window	opensource	2	1	:##*Z	90ae,281x69,0,0{140x69,0,0,11,140x69,141,0,12}
+window	opensource	3	0	:-	de69,157x41,0,0[157x20,0,0,14,157x20,0,21,15]
+window	opensource	4	0	:##	69ba,157x41,0,0[157x20,0,0,16,157x20,0,21{78x20,0,21,17,78x20,79,21,27}]
+window	zerotrust	1	1	:*	afb5,281x69,0,0{138x69,0,0,18,142x69,139,0,19}
+window	zerotrust	2	0	:	eabf,281x69,0,0,20
+window	zerotrust	3	0	:	eac0,281x69,0,0,21
+window	zerotrust	4	0	:	eac1,281x69,0,0,22
+window	zerotrust	5	0	:	eac2,281x69,0,0,23
+window	zerotrust	6	0	:##-	9e26,281x69,0,0[281x34,0,0{140x34,0,0,24,140x34,141,0,25},281x34,0,35,26]
+state	zerotrust	base

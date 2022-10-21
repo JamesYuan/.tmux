@@ -1,0 +1,27 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:/usr/local/Cellar/emacs-plus@27/27.1/Emacs.app/Contents/MacOS/Emacs --no-site-file --script ./bin/doom -- upgrade
+pane	base	2	:logs	0	:-	1	:/opt/license-server	1	bash	:-bash
+pane	devops	1	:docker	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	go	1	:bash	1	:*	1	:/Users/jyuan/projects/go/test	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	2	:bash	0	:#	1	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-nginx	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/projects/zerotrust/zt-nginx/.vagrant/machines/zt-nginx/virtualbox/private_key
+pane	zerotrust	2	:zt-java	0	:#	1	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:#	2	:/Users/jyuan	0	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:#	3	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	3	:zt-console	0	:#	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	4	:zt-web	0	:#	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	5	:sdp-agent	0	:-	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+window	base	1	1	:*	b95e,253x62,0,0,1
+window	base	2	0	:-	b95f,253x62,0,0,2
+window	devops	1	1	:*	5ce5,253x62,0,0,16
+window	go	1	1	:*	5ce7,253x62,0,0,18
+window	opensource	1	1	:*	b960,253x62,0,0,3
+window	opensource	2	0	:#	b961,253x62,0,0,4
+window	redis	1	1	:*	ba02,316x62,0,0,5
+window	zerotrust	1	1	:*	b966,253x62,0,0,9
+window	zerotrust	2	0	:#	ce7c,253x62,0,0[253x14,0,0,10,253x14,0,15,11,253x32,0,30,12]
+window	zerotrust	3	0	:#	5ce2,253x62,0,0,13
+window	zerotrust	4	0	:#	5ce3,253x62,0,0,14
+window	zerotrust	5	0	:-	5ce6,253x62,0,0,17
+state	go	base

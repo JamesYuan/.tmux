@@ -1,0 +1,70 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	base	3	:bash	0	:	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	edgex	1	:bash	1	:*Z	1	:/Users/jyuan/projects/edgex/modbuspal	1	bash	:-bash
+pane	edgex	1	:bash	1	:*Z	2	:/Users/jyuan/projects/edgex	0	bash	:-bash
+pane	edgex	2	:bash	0	:-	1	:/Users/jyuan/projects/edgex/edgex-compose/compose-builder	1	bash	:-bash
+pane	edr	1	:kibana	0	:##	1	:/Users/jyuan/projects/wazuh/kibana	1	bash	:-bash
+pane	edr	2	:vagrant	0	:##-Z	1	:/Users/jyuan/projects/wazuh/wazuh	0	bash	:-bash
+pane	edr	2	:vagrant	0	:##-Z	2	:/Users/jyuan/projects/wazuh/projects/keyi	0	bash	:-bash
+pane	edr	2	:vagrant	0	:##-Z	3	:/Users/jyuan/projects/wazuh/wazuh-docker	1	bash	:-bash
+pane	edr	3	:138	1	:##*	1	:/Users/jyuan/projects/wazuh/wazuh-docker	1	bash	:-bash
+pane	edr	3	:138	1	:##*	2	:/Users/jyuan/projects/wazuh/wazuh-docker/kibana	0	bash	:-bash
+pane	edr	3	:138	1	:##*	3	:/Users/jyuan/projects/wazuh/wazuh-docker/edr	0	bash	:-bash
+pane	edr	4	:226	0	:	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	edr	5	:146	0	:##Z	1	:/Users/jyuan/org/work/scripts	0	bash	:-bash
+pane	edr	5	:146	0	:##Z	2	:/Users/jyuan/projects/wazuh/tmp	1	bash	:-bash
+pane	edr	5	:146	0	:##Z	3	:/Users/jyuan/projects/wazuh/tmp	0	bash	:-bash
+pane	edr	6	:253	0	:	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	edr	6	:253	0	:	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	k8s	1	:bash	0	:##-Z	1	:/Users/jyuan/projects/k8s	0	bash	:-bash
+pane	k8s	1	:bash	0	:##-Z	2	:/Users/jyuan/projects/k8s	1	bash	:-bash
+pane	k8s	1	:bash	0	:##-Z	3	:/Users/jyuan/projects/k8s	0	bash	:-bash
+pane	k8s	2	:bash	1	:*	1	:/Users/jyuan/projects/k8s/book_k8s_v5/ch1	1	bash	:-bash
+pane	logs	1	:ssh	1	:##*Z	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	1	:ssh	1	:##*Z	2	:/Users/jyuan/projects/python	0	bash	:-bash
+pane	logs	2	:bash	0	:-	1	:/Users/jyuan/org/work/scripts	0	bash	:-bash
+pane	logs	2	:bash	0	:-	2	:/Users/jyuan/org/work/scripts	1	bash	:-bash
+pane	logs	3	:bash	0	:	1	:/Users/jyuan/projects/zerotrust/firefox-apkbuild	0	bash	:-bash
+pane	logs	3	:bash	0	:	2	:/Users/jyuan/projects/zerotrust/firefox-apkbuild	1	bash	:-bash
+pane	opensource	1	:bash	0	:##	1	:/Users/jyuan/projects/opensources/bi/redash	1	bash	:-bash
+pane	opensource	2	:bash	0	:##-	1	:/Users/jyuan/projects/mainflux/mainflux	1	make	:/usr/local/lib/docker/cli-plugins/docker-compose compose -f docker/docker-compose.yml up
+pane	opensource	3	:bash	1	:*	1	:/Users/jyuan/projects/mainflux	1	bash	:-bash
+pane	opensource	4	:bash	0	:	1	:/Users/jyuan/projects/opensources/python	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/zerotrust/zt-web	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:-	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/ui	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	3	:/Users/jyuan/projects/opensources/rbi/noVNC	1	bash	:-bash
+window	base	1	1	:*	cd3d,157x38,0,0,0
+window	base	2	0	:-	cd3e,157x38,0,0,1
+window	base	3	0	:	cd3f,157x38,0,0,2
+window	edgex	1	1	:*Z	f74a,157x38,0,0[157x19,0,0,3,157x18,0,20,4]
+window	edgex	2	0	:-	cd44,157x38,0,0,7
+window	edr	1	0	:##	cd45,157x38,0,0,8
+window	edr	2	0	:##-Z	261b,157x38,0,0[157x18,0,0{78x18,0,0,9,78x18,79,0,10},157x19,0,19,11]
+window	edr	3	1	:##*	0e1c,157x38,0,0[157x19,0,0,12,157x18,0,20{78x18,0,20,13,78x18,79,20,14}]
+window	edr	4	0	:	66d4,157x38,0,0,15
+window	edr	5	0	:##Z	eaa3,157x38,0,0[157x18,0,0{78x18,0,0,16,78x18,79,0,17},157x19,0,19,18]
+window	edr	6	0	:	3239,157x38,0,0{78x38,0,0,19,78x38,79,0,20}
+window	k8s	1	0	:##-Z	ae0b,157x38,0,0[157x19,0,0,21,157x18,0,20{78x18,0,20,22,78x18,79,20,23}]
+window	k8s	2	1	:*	e6d3,157x38,0,0,24
+window	logs	1	1	:##*Z	49ae,157x38,0,0[157x18,0,0,25,157x19,0,19,26]
+window	logs	2	0	:-	323a,157x38,0,0{78x38,0,0,27,78x38,79,0,28}
+window	logs	3	0	:	89af,157x38,0,0[157x18,0,0,29,157x19,0,19,30]
+window	opensource	1	0	:##	66d1,157x38,0,0,31
+window	opensource	2	0	:##-	66d2,157x38,0,0,32
+window	opensource	3	1	:*	66d3,157x38,0,0,33
+window	opensource	4	0	:	66d4,157x38,0,0,34
+window	zerotrust	1	0	:	68be,157x38,0,0{76x38,0,0,35,80x38,77,0,36}
+window	zerotrust	2	0	:-	66d7,157x38,0,0,37
+window	zerotrust	3	0	:	66d8,157x38,0,0,38
+window	zerotrust	4	0	:	49b0,157x38,0,0[157x18,0,0,39,157x19,0,19,40]
+window	zerotrust	5	0	:	e6d1,157x38,0,0,41
+window	zerotrust	6	1	:*	b451,157x38,0,0{78x38,0,0,42,78x38,79,0[78x28,79,0,43,78x9,79,29,44]}
+state	edgex	opensource

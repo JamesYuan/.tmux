@@ -1,0 +1,49 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	vim	:vimdiff init.example.el ../.doom.d/init.el
+pane	base	2	:logs	0	:#-Z	1	:/Users/jyuan/projects/tmp/rust-analyzer	1	bash	:-bash
+pane	base	2	:logs	0	:#-Z	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	devops	1	:QA	1	:*	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	1	:QA	1	:*	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	2	:redis	0	:#	1	:/Users/jyuan/projects/zerotrust/demo/mqtt	0	bash	:-bash
+pane	devops	2	:redis	0	:#	2	:/Users/jyuan/projects/zerotrust/demo/mqtt	1	bash	:-bash
+pane	devops	3	:bash	0	:#-	1	:/Users/jyuan/projects/go/pprof	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	3	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	4	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	opensource	2	:bash	0	:#	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	2	:bash	0	:#	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	opensource	2	:bash	0	:#	3	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	1	:/Users/jyuan/projects/opensources/go	1	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	2	:/Users/jyuan/projects/opensources	0	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	3	:/Users/jyuan/projects/opensources	0	bash	:-bash
+pane	opensource	4	:bash	0	:#-Z	1	:/Users/jyuan/projects/opensources/java/gk309	0	bash	:-bash
+pane	opensource	4	:bash	0	:#-Z	2	:/Users/jyuan/projects/opensources/java/gk309	1	bash	:-bash
+pane	opensource	5	:bash	1	:*	1	:/Users/jyuan/projects/rust/proj	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:#	2	:/Users/jyuan/projects/go/test	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:#	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	4	:traefik	0	:#	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	5	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-console	1	node	:node /Users/jyuan/projects/zerotrust/zt-console/node_modules/.bin/vue-cli-service serve
+pane	zerotrust	6	:zt-java	0	:#-	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	7	:bash	1	:*Z	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	7	:bash	1	:*Z	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+window	base	1	1	:*	d51d,281x69,0,0,0
+window	base	2	0	:#-Z	fc06,281x69,0,0[281x34,0,0,1,281x34,0,35,30]
+window	devops	1	1	:*	7785,281x69,0,0[281x34,0,0,3,281x34,0,35,4]
+window	devops	2	0	:#	9e8a,281x69,0,0[281x35,0,0,5,281x33,0,36,6]
+window	devops	3	0	:#-	d524,281x69,0,0,7
+window	opensource	1	0	:#	3b61,281x69,0,0[281x32,0,0{142x32,0,0,8,138x32,143,0,9},281x36,0,33{137x36,0,33,10,143x36,138,33,11}]
+window	opensource	2	0	:#	58f6,281x69,0,0{141x69,0,0[141x32,0,0,12,141x36,0,33,13],139x69,142,0,14}
+window	opensource	3	0	:#Z	554e,281x69,0,0{140x69,0,0,15,140x69,141,0[140x33,141,0,16,140x35,141,34,17]}
+window	opensource	4	0	:#-Z	10b3,281x69,0,0{140x69,0,0,18,140x69,141,0,33}
+window	opensource	5	1	:*	6ac1,281x69,0,0,31
+window	zerotrust	1	0	:#	bd6c,157x41,0,0[157x12,0,0,19,157x28,0,13,20]
+window	zerotrust	2	0	:#	8b6c,157x41,0,0{76x41,0,0,21,80x41,77,0,22}
+window	zerotrust	3	0	:#	d9d3,157x41,0,0,24
+window	zerotrust	4	0	:#	d9d4,157x41,0,0,25
+window	zerotrust	5	0	:	d9d5,157x41,0,0,26
+window	zerotrust	6	0	:#-	d9d6,157x41,0,0,27
+window	zerotrust	7	1	:*Z	bd70,157x41,0,0[157x12,0,0,28,157x28,0,13,29]
+state	opensource	zerotrust

@@ -1,0 +1,66 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	vim	:vimdiff init.example.el ../.doom.d/init.el
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/.vim/pack/themes/start	1	bash	:-bash
+pane	logs	1	:ssh	1	:*Z	1	:/Users/jyuan/projects/tmp	1	ssh	:ssh root@127.0.0.24
+pane	logs	1	:ssh	1	:*Z	2	:/Users/jyuan/projects/wazuh/cnvd	0	bash	:-bash
+pane	logs	2	:bash	0	:##-	1	:	1	sudo	:tail -f /Library/edr/logs/edr.log
+pane	logs	3	:bash	0	:##Z	1	:/Users/jyuan/projects/zerotrust/tmp	1	bash	:-bash
+pane	logs	3	:bash	0	:##Z	2	:/Users/jyuan/projects/wazuh/cnvd	0	bash	:-bash
+pane	opensource	1	:bash	0	:	1	:/Users/jyuan/projects/devops/shell	0	bash	:-bash
+pane	opensource	1	:bash	0	:	2	:/Users/jyuan/projects/opensources/rbi/docker-alpine-abuild/edge	1	bash	:-bash
+pane	opensource	2	:137	0	:	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	opensource	2	:137	0	:	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	opensource	3	:bash	1	:*	1	:/Users/jyuan/projects/opensources/HBSHell	1	bash	:-bash
+pane	opensource	4	:115	0	:##Z	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox/pkgs/apk	0	bash	:-bash
+pane	opensource	4	:115	0	:##Z	2	:/Users/jyuan	1	bash	:-bash
+pane	opensource	5	:bash	0	:-	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	6	:bash	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	wazuh	1	:kibana	0	:	1	:/Users/jyuan/projects/wazuh/kibana	1	vim	:vim INSTALL.md
+pane	wazuh	2	:osd	0	:-	1	:/Users/jyuan/projects/wazuh/OpenSearch-Dashboards	1	bash	:-bash
+pane	wazuh	3	:vagrant	1	:##*Z	1	:/Users/jyuan/projects/tmp	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	3	:vagrant	1	:##*Z	2	:/Users/jyuan/projects/wazuh/wazuh	1	bash	:vim rs.patch
+pane	wazuh	4	:138	0	:##Z	1	:/Users/jyuan/projects/wazuh/tmp	1	bash	:-bash
+pane	wazuh	4	:138	0	:##Z	2	:/Users/jyuan/projects/wazuh/tmp	0	bash	:-bash
+pane	wazuh	5	:226	0	:##	1	:/Users/jyuan/projects/wazuh/tmp/226	0	bash	:-bash
+pane	wazuh	5	:226	0	:##	2	:/Users/jyuan/projects/wazuh/tmp/226	1	bash	:-bash
+pane	wazuh	6	:146	0	:	1	:/Users/jyuan/org/work/scripts	1	bash	:-bash
+pane	wazuh	7	:253	0	:##Z	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	wazuh	7	:253	0	:##Z	2	:/Users/jyuan	0	bash	:-bash
+pane	wazuh	8	:207	0	:	1	:/Users/jyuan/projects/opensources/rbi	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	0	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/zerotrust/tmp/docker_origin	1	bash	:-bash
+pane	zerotrust	2	:sdp-agent	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	3	:/Users/jyuan/projects/zerotrust/zt-rbi	0	bash	:-bash
+window	base	1	0	:-	d13d,157x39,0,0,0
+window	base	2	1	:*	d13e,157x39,0,0,1
+window	base	3	0	:	d13f,157x39,0,0,2
+window	logs	1	1	:*Z	94f2,157x39,0,0{77x39,0,0,3,79x39,78,0,4}
+window	logs	2	0	:##-	d142,157x39,0,0,5
+window	logs	3	0	:##Z	7853,157x39,0,0[157x19,0,0,6,157x19,0,20,7]
+window	opensource	1	0	:	1ee9,157x39,0,0{78x39,0,0,8,78x39,79,0,9}
+window	opensource	2	0	:	c3a5,157x39,0,0[157x19,0,0,10,157x19,0,20,11]
+window	opensource	3	1	:*	68d1,157x39,0,0,12
+window	opensource	4	0	:##Z	43aa,157x39,0,0[157x19,0,0,13,157x19,0,20,14]
+window	opensource	5	0	:-	68d4,157x39,0,0,15
+window	opensource	6	0	:	68d5,157x39,0,0,16
+window	wazuh	1	0	:	68d6,157x39,0,0,17
+window	wazuh	2	0	:-	68d7,157x39,0,0,18
+window	wazuh	3	1	:##*Z	83ae,157x39,0,0[157x19,0,0,19,157x19,0,20,20]
+window	wazuh	4	0	:##Z	03a8,157x39,0,0[157x19,0,0,21,157x19,0,20,22]
+window	wazuh	5	0	:##	03ab,157x39,0,0[157x19,0,0,23,157x19,0,20,24]
+window	wazuh	6	0	:	e8d4,157x39,0,0,25
+window	wazuh	7	0	:##Z	b6b8,157x39,0,0{78x39,0,0,26,78x39,79,0,27}
+window	wazuh	8	0	:	e8d7,157x39,0,0,28
+window	zerotrust	1	0	:	6d43,157x39,0,0{76x39,0,0,29,80x39,77,0,30}
+window	zerotrust	2	1	:*	68d1,157x39,0,0,31
+window	zerotrust	3	0	:	68d2,157x39,0,0,32
+window	zerotrust	4	0	:	c3ab,157x39,0,0[157x19,0,0,33,157x19,0,20,34]
+window	zerotrust	5	0	:	68d5,157x39,0,0,35
+window	zerotrust	6	0	:-	4e2e,157x39,0,0{78x39,0,0,36,78x39,79,0[78x19,79,0,37,78x19,79,20,38]}
+state	logs	wazuh

@@ -1,0 +1,57 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	2	:logs	1	:*	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	logs	1	:ssh	0	:	1	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	1	:ssh	0	:	2	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	logs	2	:bash	1	:##*Z	1	:/Users/jyuan/projects/logs	1	ssh	:ssh root@192.168.0.133
+pane	logs	2	:bash	1	:##*Z	2	:/Users/jyuan/projects/logs	0	ssh	:ssh root@192.168.0.133
+pane	logs	2	:bash	1	:##*Z	3	:/Users/jyuan/projects/logs	0	ssh	:ssh root@192.168.0.133
+pane	logs	3	:bash	0	:-	1	:/Users/jyuan/projects/logs	0	ssh	:ssh root@192.168.0.133
+pane	logs	3	:bash	0	:-	2	:/Users/jyuan/projects/logs	0	ssh	:ssh root@192.168.0.136
+pane	logs	3	:bash	0	:-	3	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	opensource	1	:jumpserver	0	:-	1	:/Users/jyuan/projects/opensources/python/jumpserver	1	bash	:-bash
+pane	opensource	2	:Python	0	:	1	:/Users/jyuan/projects/opensources/python/jumpserver_extra/guacamole-server-1.3.0	1	bash	:-bash
+pane	opensource	3	:bash	1	:*	1	:/Users/jyuan/projects/wazuh/kibana/plugins/wazuh-kibana-app	1	bash	:-bash
+pane	wazuh	1	:bash	0	:	1	:/Users/jyuan/projects/wazuh/wazuh	1	bash	:-bash
+pane	wazuh	2	:kibana	0	:##-Z	1	:/Users/jyuan/projects/wazuh/kibana	1	node	:vi ./src/dev/build/tasks/nodejs/node_shasums.ts
+pane	wazuh	2	:kibana	0	:##-Z	2	:/Users/jyuan/projects/wazuh/kibana/plugins/wazuh-kibana-app	0	bash	:-bash
+pane	wazuh	3	:145	1	:##*	1	:/Users/jyuan/projects/wazuh/wazuh	0	bash	:-bash
+pane	wazuh	3	:145	1	:##*	2	:/Users/jyuan/projects/wazuh/kibana/plugins/wazuh-kibana-app	1	bash	:-bash
+pane	wazuh	4	:vagrant	0	:##	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	wazuh	4	:vagrant	0	:##	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	4	:vagrant	0	:##	3	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	4	:vagrant	0	:##	4	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	5	:bash	0	:	1	:/Users/jyuan/projects/wazuh	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	0	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:-	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	docker	:/usr/local/bin/com.docker.cli logs -f firefox
+window	base	1	0	:-	c91d,281x66,0,0,0
+window	base	2	1	:*	267d,281x66,0,0[281x32,0,0,1,281x33,0,33,2]
+window	base	3	0	:	c920,281x66,0,0,3
+window	logs	1	0	:	cd84,281x66,0,0[281x33,0,0,4,281x32,0,34,5]
+window	logs	2	1	:##*Z	3085,281x66,0,0{80x66,0,0,6,200x66,81,0[200x43,81,0,8,200x22,81,44,9]}
+window	logs	3	0	:-	abd3,281x66,0,0[281x33,0,0{140x33,0,0,10,140x33,141,0,11},281x32,0,34,12]
+window	opensource	1	0	:-	64c2,281x66,0,0,13
+window	opensource	2	0	:	64c3,281x66,0,0,14
+window	opensource	3	1	:*	64c4,281x66,0,0,15
+window	wazuh	1	0	:	64c5,281x66,0,0,16
+window	wazuh	2	0	:##-Z	fb5b,281x66,0,0[281x33,0,0,17,281x32,0,34,18]
+window	wazuh	3	1	:##*	3b5a,281x66,0,0[281x33,0,0,19,281x32,0,34,20]
+window	wazuh	4	0	:##	dc71,281x66,0,0[281x33,0,0{141x33,0,0,21,139x33,142,0,22},281x32,0,34{141x32,0,34,23,139x32,142,34,24}]
+window	wazuh	5	0	:	e4c4,281x66,0,0,25
+window	zerotrust	1	0	:	cbf3,281x66,0,0{138x66,0,0,26,142x66,139,0,27}
+window	zerotrust	2	0	:	e4c7,281x66,0,0,28
+window	zerotrust	3	0	:	e4c8,281x66,0,0,29
+window	zerotrust	4	0	:	fb52,281x66,0,0[281x33,0,0,30,281x32,0,34,31]
+window	zerotrust	5	0	:-	fb55,281x66,0,0[281x33,0,0,32,281x32,0,34,33]
+window	zerotrust	6	1	:*	fb1a,281x66,0,0[281x32,0,0{140x32,0,0,34,140x32,141,0,35},281x33,0,33,36]
+state	zerotrust	logs

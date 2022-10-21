@@ -1,0 +1,49 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	logs	1	:ssh	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	logs	2	:bash	0	:-	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	2	:bash	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	3	:138	1	:##*Z	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	3	:138	1	:##*Z	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	3	:138	1	:##*Z	3	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	opensource	1	:Python	1	:*	1	:/Users/jyuan/projects/opensources/lua	1	bash	:-bash
+pane	opensource	2	:bash	0	:-	1	:/Users/jyuan/projects/opensources/rtags	1	bash	:-bash
+pane	wazuh	1	:kibana	0	:	1	:/Users/jyuan/projects/wazuh/kibana	1	bash	:-bash
+pane	wazuh	2	:vagrant	1	:*Z	1	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	1	:*Z	2	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	1	:*Z	3	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	1	:*Z	4	:/Users/jyuan/projects	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	3	:138	0	:-Z	1	:/Users/jyuan/.Trash/wazuh	0	ssh	:ssh dev1@36.110.69.140
+pane	wazuh	3	:138	0	:-Z	2	:/Users/jyuan/projects/wazuh/kibana	1	ssh	:ssh dev1@36.110.69.140
+pane	wazuh	4	:208	0	:##	1	:/Users/jyuan/projects/wazuh	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:##	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:##	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+window	base	1	1	:*	d13d,157x39,0,0,0
+window	base	2	0	:-	f7c7,157x39,0,0[157x18,0,0,1,157x20,0,19,2]
+window	base	3	0	:	b260,80x24,0,0,3
+window	logs	1	0	:	d141,157x39,0,0,4
+window	logs	2	0	:-	76bc,157x39,0,0{78x39,0,0,29,78x39,79,0,32}
+window	logs	3	1	:##*Z	4caa,157x39,0,0{78x39,0,0,30,78x39,79,0[78x19,79,0,31,78x19,79,20,34]}
+window	opensource	1	1	:*	d144,157x39,0,0,7
+window	opensource	2	0	:-	b265,80x24,0,0,8
+window	wazuh	1	0	:	d146,157x39,0,0,9
+window	wazuh	2	1	:*Z	9058,157x39,0,0[157x19,0,0{78x19,0,0,11,78x19,79,0,12},157x19,0,20{78x19,0,20,13,78x19,79,20,14}]
+window	wazuh	3	0	:-Z	f6b4,157x39,0,0{78x39,0,0,15,78x39,79,0,16}
+window	wazuh	4	0	:##	68d7,157x39,0,0,18
+window	zerotrust	1	0	:##	57fa,80x24,0,0{37x24,0,0,19,42x24,38,0,20}
+window	zerotrust	2	0	:	d960,80x24,0,0,21
+window	zerotrust	3	0	:	d961,80x24,0,0,22
+window	zerotrust	4	0	:	5451,80x24,0,0[80x11,0,0,23,80x12,0,12,24]
+window	zerotrust	5	1	:*	e8d4,157x39,0,0,25
+window	zerotrust	6	0	:-	0232,80x24,0,0[80x10,0,0{39x10,0,0,26,40x10,40,0,27},80x13,0,11,28]
+state	wazuh	zerotrust

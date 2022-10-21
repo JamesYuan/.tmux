@@ -1,0 +1,7 @@
+pane	1	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	base	1	:bash	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	cloud_manager	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+window	1	1	1	:*	b25d,236x60,0,0,0
+window	base	1	1	:*	b25e,236x60,0,0,1
+window	cloud_manager	1	1	:*	b25f,236x60,0,0,2
+state	cloud_manager	base

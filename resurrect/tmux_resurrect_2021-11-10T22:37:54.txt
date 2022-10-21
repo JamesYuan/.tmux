@@ -1,0 +1,49 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/dotfiles	1	bash	:-bash
+pane	base	2	:logs	0	:##-Z	1	:/Users/jyuan/.pyenv	0	bash	:-bash
+pane	base	2	:logs	0	:##-Z	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	devops	1	:QA	0	:	1	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	devops	1	:QA	0	:	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	devops	1	:QA	0	:	3	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	devops	2	:redis	0	:-	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:-	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:docker	1	:##*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	3	:docker	1	:##*	2	:/Users/jyuan/projects/go/pprof	0	bash	:-bash
+pane	logs	1	:110	0	:-	1	:/Users/jyuan/projects/opensources/go	1	bash	:-bash
+pane	logs	1	:110	0	:-	2	:/Users/jyuan/projects/logs	0	bash	:-bash
+pane	logs	2	:bash	1	:*	1	:/Users/jyuan/projects/zerotrust	1	ssh	:ssh root@192.168.0.110
+pane	opensource	1	:jumpserver	0	:-	1	:/Users/jyuan/projects/opensources/python/jumpserver_extra/luna	0	bash	:-bash
+pane	opensource	1	:jumpserver	0	:-	2	:/Users/jyuan/projects/opensources/python/jumpserver_extra/lina-2.15.3	0	bash	:-bash
+pane	opensource	1	:jumpserver	0	:-	3	:/Users/jyuan/projects/opensources/python/jumpserver_extra/lion-v2.15.3-darwin-amd64	1	bash	:-bash
+pane	opensource	2	:bash	1	:*Z	1	:/Users/jyuan/projects/opensources/python/jumpserver	1	bash	:vi /usr/local/etc/nginx/servers/jumpserver.conf
+pane	opensource	2	:bash	1	:*Z	2	:/Users/jyuan/projects/opensources/python/jumpserver	0	bash	:-bash
+pane	opensource	3	:bash	0	:	1	:/Users/jyuan/projects/opensources/interview/leetcode	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	1	:##*	1	:/Users/jyuan/projects/zerotrust/zt-tenant	1	bash	:-bash
+pane	zerotrust	4	:zt-console	1	:##*	2	:/Users/jyuan/projects/zerotrust/zt-console	0	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	0	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	2	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	0	:-	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+window	base	1	1	:*	d13d,157x39,0,0,0
+window	base	2	0	:##-Z	267d,281x66,0,0[281x32,0,0,1,281x33,0,33,2]
+window	base	3	0	:	c920,281x66,0,0,3
+window	devops	1	0	:	93dc,281x66,0,0[281x32,0,0{140x32,0,0,4,140x32,141,0,5},281x33,0,33,6]
+window	devops	2	0	:-	4d8c,281x66,0,0[281x33,0,0,7,281x32,0,34,8]
+window	devops	3	1	:##*	d30c,281x66,0,0[281x32,0,0,9,281x33,0,33,10]
+window	logs	1	0	:-	fb52,281x66,0,0[281x33,0,0,11,281x32,0,34,12]
+window	logs	2	1	:*	64c2,281x66,0,0,13
+window	opensource	1	0	:-	8119,157x39,0,0[157x19,0,0,33,157x19,0,20{53x19,0,20,30,103x19,54,20,32}]
+window	opensource	2	1	:*Z	43af,157x39,0,0[157x19,0,0,35,157x19,0,20,37]
+window	opensource	3	0	:	68d8,157x39,0,0,38
+window	zerotrust	1	0	:	4bf4,281x66,0,0{138x66,0,0,17,142x66,139,0,18}
+window	zerotrust	2	0	:	64c8,281x66,0,0,19
+window	zerotrust	3	0	:	e4bf,281x66,0,0,20
+window	zerotrust	4	1	:##*	bb53,281x66,0,0[281x33,0,0,21,281x32,0,34,22]
+window	zerotrust	5	0	:	bb56,281x66,0,0[281x33,0,0,23,281x32,0,34,24]
+window	zerotrust	6	0	:-	bb1b,281x66,0,0[281x32,0,0{140x32,0,0,25,140x32,141,0,26},281x33,0,33,27]
+state	base	opensource

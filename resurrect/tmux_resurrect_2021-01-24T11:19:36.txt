@@ -1,0 +1,41 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/projects/tmp/ca	1	bash	:-bash
+pane	devops	1	:QA	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	1	:QA	1	:*	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan/projects/zerotrust/demo/mqtt	1	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan/projects/zerotrust/demo/mqtt	0	bash	:-bash
+pane	devops	2	:redis	0	:	3	:/Users/jyuan/projects/zerotrust/demo/mqtt	0	bash	:-bash
+pane	devops	3	:bash	0	:-	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:#Z	1	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#Z	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#Z	3	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#Z	4	:/Users/jyuan/projects/opensources/go/gost	1	bash	:-bash
+pane	opensource	2	:bash	0	:#-Z	1	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	opensource	2	:bash	0	:#-Z	2	:/Users/jyuan/projects/opensources/go/go-tun2socks_mello-io	1	bash	:-bash
+pane	opensource	3	:bash	1	:*	1	:/Users/jyuan/projects/opensources/go/v2ray-core	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:-	1	:/Users/jyuan/projects/zerotrust/sdp-agent	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:-	2	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	4	:traefik	0	:#	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	5	:zt-console	0	:#	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	6	:zt-java	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	7	:bash	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	7	:bash	1	:*	2	:	0	sudo	:/usr/local/Cellar/emacs-plus@27/27.1/Emacs.app/Contents/MacOS/Emacs
+window	base	1	0	:-	c73d,176x46,0,0,0
+window	base	2	1	:*	c73e,176x46,0,0,1
+window	devops	1	1	:*	d67d,316x78,0,0[316x38,0,0,3,316x39,0,39,4]
+window	devops	2	0	:	48ba,316x78,0,0[316x19,0,0,5,316x19,0,20,6,316x38,0,40,7]
+window	devops	3	0	:-	d405,316x78,0,0,8
+window	opensource	1	0	:#Z	b464,176x46,0,0[176x23,0,0{88x23,0,0,9,87x23,89,0,10},176x22,0,24{68x22,0,24,11,107x22,69,24,12}]
+window	opensource	2	0	:#-Z	6935,176x46,0,0{87x46,0,0,13,88x46,88,0,14}
+window	opensource	3	1	:*	63d4,176x46,0,0,15
+window	zerotrust	1	0	:#	556e,176x46,0,0[176x23,0,0,16,176x22,0,24,17]
+window	zerotrust	2	0	:#	63d7,176x46,0,0,18
+window	zerotrust	3	0	:-	156e,176x46,0,0[176x23,0,0,19,176x22,0,24,20]
+window	zerotrust	4	0	:#	e3d0,176x46,0,0,21
+window	zerotrust	5	0	:#	e3d1,176x46,0,0,22
+window	zerotrust	6	0	:#	e3d2,176x46,0,0,23
+window	zerotrust	7	1	:*	156d,176x46,0,0[176x23,0,0,24,176x22,0,24,27]
+state	zerotrust	opensource

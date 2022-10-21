@@ -1,0 +1,50 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	logs	1	:ssh	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	logs	2	:bash	1	:##*	1	:/Users/jyuan/projects/tmp	0	ssh	:ssh dev1@36.110.69.140
+pane	logs	2	:bash	1	:##*	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	3	:138	0	:##Z	1	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	3	:138	0	:##Z	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	4	:ssh	0	:-	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	opensource	1	:Python	1	:*	1	:/Users/jyuan/projects/opensources/lua	1	bash	:-bash
+pane	opensource	2	:bash	0	:-	1	:/Users/jyuan/projects/opensources/rtags	1	bash	:-bash
+pane	wazuh	1	:kibana	0	:	1	:/Users/jyuan/projects/wazuh/kibana	1	bash	:-bash
+pane	wazuh	2	:vagrant	0	:-Z	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	2	:vagrant	0	:-Z	2	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	0	:-Z	3	:/Users/jyuan/projects	0	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	0	:-Z	4	:/Users/jyuan/projects	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2200 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	3	:138	1	:*Z	1	:/Users/jyuan	0	bash	:-bash
+pane	wazuh	3	:138	1	:*Z	2	:/Users/jyuan/projects/wazuh/tmp	1	ssh	:ssh dev1@36.110.69.140
+pane	wazuh	4	:208	0	:##	1	:/Users/jyuan/projects/wazuh	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*Z	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*Z	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*Z	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+window	base	1	1	:*	d13d,157x39,0,0,0
+window	base	2	0	:-	f7c7,157x39,0,0[157x18,0,0,1,157x20,0,19,2]
+window	base	3	0	:	b260,80x24,0,0,3
+window	logs	1	0	:	b261,80x24,0,0,4
+window	logs	2	1	:##*	9edb,157x39,0,0{78x39,0,0,5,78x39,79,0,6}
+window	logs	3	0	:##Z	f855,157x39,0,0[157x19,0,0,7,157x19,0,20,8]
+window	logs	4	0	:-	d146,157x39,0,0,9
+window	opensource	1	1	:*	68cf,157x39,0,0,10
+window	opensource	2	0	:-	68d0,157x39,0,0,11
+window	wazuh	1	0	:	68d1,157x39,0,0,12
+window	wazuh	2	0	:-Z	10fa,157x39,0,0[157x19,0,0{78x19,0,0,13,78x19,79,0,14},157x19,0,20{78x19,0,20,15,78x19,79,20,16}]
+window	wazuh	3	1	:*Z	f6b9,157x39,0,0{78x39,0,0,17,78x39,79,0,18}
+window	wazuh	4	0	:##	68d8,157x39,0,0,19
+window	zerotrust	1	0	:	ad31,157x39,0,0{76x39,0,0,20,80x39,77,0,21}
+window	zerotrust	2	0	:	e8d1,157x39,0,0,22
+window	zerotrust	3	0	:	e8d2,157x39,0,0,23
+window	zerotrust	4	0	:	83ac,157x39,0,0[157x19,0,0,24,157x19,0,20,25]
+window	zerotrust	5	0	:-	e8d5,157x39,0,0,26
+window	zerotrust	6	1	:##*Z	6688,157x39,0,0[157x18,0,0{78x18,0,0,27,78x18,79,0,28},157x20,0,19,29]
+state	wazuh	logs

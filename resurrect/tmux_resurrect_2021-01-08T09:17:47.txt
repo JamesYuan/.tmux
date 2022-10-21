@@ -1,0 +1,39 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	1	:QA	1	:*Z	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	1	:QA	1	:*Z	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	2	:bash	0	:-	1	:/Users/jyuan/projects/tmp/mqttdemo	1	redis-cli	:-bash
+pane	devops	3	:bash	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	gatekeeper	1	:bash	1	:*	1	:/Users/jyuan/projects/gatekeeper	0	bash	:-bash
+pane	gatekeeper	1	:bash	1	:*	2	:/Users/jyuan/projects/gatekeeper	1	bash	:-bash
+pane	gatekeeper	2	:bash	0	:-	1	:/Users/jyuan/projects/gatekeeper/forward-transfer	0	bash	:-bash
+pane	gatekeeper	2	:bash	0	:-	2	:/Users/jyuan/projects/tmp/certs	0	bash	:-bash
+pane	gatekeeper	2	:bash	0	:-	3	:/Users/jyuan/projects/tmp/certs	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	2	:bash	0	:-	1	:/Users/jyuan/projects/opensources/tmp	1	bash	:-bash
+pane	zerotrust	1	:zt-nginx	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-nginx	1	bash	:-bash
+pane	zerotrust	2	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	3	:zt-console	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zerotrust	4	:zt-web	0	:	1	:/Users/jyuan	1	bash	:-bash
+pane	zerotrust	5	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	6	:traefik	0	:-	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrustit	1	:edge	1	:*	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrustit	2	:bash	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+window	base	1	0	:-	d3fd,316x78,0,0,0
+window	base	2	1	:*	d3fe,316x78,0,0,1
+window	devops	1	1	:*Z	d67d,316x78,0,0[316x38,0,0,3,316x39,0,39,4]
+window	devops	2	0	:-	ea30,316x78,0,0,21
+window	devops	3	0	:	ea32,316x78,0,0,23
+window	gatekeeper	1	1	:*	0b51,176x46,0,0[176x12,0,0,6,176x33,0,13,7]
+window	gatekeeper	2	0	:-	5787,176x46,0,0[176x9,0,0,8,176x8,0,10,9,176x27,0,19,10]
+window	opensource	1	1	:*	63d0,176x46,0,0,11
+window	opensource	2	0	:-	63d1,176x46,0,0,12
+window	zerotrust	1	1	:*	63d2,176x46,0,0,13
+window	zerotrust	2	0	:	63d3,176x46,0,0,14
+window	zerotrust	3	0	:	63d4,176x46,0,0,15
+window	zerotrust	4	0	:	63d5,176x46,0,0,16
+window	zerotrust	5	0	:	63d6,176x46,0,0,17
+window	zerotrust	6	0	:-	63d7,176x46,0,0,18
+window	zerotrustit	1	1	:*	63d8,176x46,0,0,19
+window	zerotrustit	2	0	:-	e3cf,176x46,0,0,20
+state	base	devops

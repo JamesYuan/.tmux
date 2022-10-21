@@ -1,0 +1,51 @@
+pane	base	1	:conf	0	:#	1	:/Users/jyuan/.emacs.d	1	vim	:vi modules/lang/rust/README.org
+pane	base	2	:logs	1	:*Z	1	:/Users/jyuan/projects/tmp/rust-analyzer	1	xtask	:/Users/jyuan/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name hir_def --edition=2018 crates/hir_def/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no -C debuginfo=0 -C metadata=9fb1de4ffa93d63f -C extra-filename=-9fb1de4ffa93d63f --out-dir /Users/jyuan/projects/tmp/rust-analyzer/target/release/deps -C incremental=/Users/jyuan/projects/tmp/rust-analyzer/target/release/incremental -L dependency=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps --extern anymap=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libanymap-8aa4c6c0d2628447.rmeta --extern base_db=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libbase_db-bf316174def359ae.rmeta --extern cfg=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libcfg-1dff67b12f37392b.rmeta --extern cov_mark=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libcov_mark-8ee444b5ec7f7930.rmeta --extern dashmap=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libdashmap-c53499369805cc27.rmeta --extern drop_bomb=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libdrop_bomb-6e91ef020e2aa888.rmeta --extern either=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libeither-c311c23b35250d95.rmeta --extern fst=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libfst-d63fd5cdf3fc69c3.rmeta --extern hir_expand=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libhir_expand-fc7f6a3c80ed30e3.rmeta --extern indexmap=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libindexmap-a22d27475e52cc45.rmeta --extern itertools=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libitertools-dff634de94ff49cd.rmeta --extern la_arena=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libla_arena-aca34e9a83d0bf19.rmeta --extern log=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/liblog-8815e40c520f9ba0.rmeta --extern mbe=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libmbe-9e47a15a25b7c2e3.rmeta --extern once_cell=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libonce_cell-44199b6d84db2b43.rmeta --extern profile=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libprofile-de3c0a3ed821dabe.rmeta --extern rustc_hash=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/librustc_hash-afda7f390fdf5296.rmeta --extern smallvec=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libsmallvec-cf0bd059b2dd92ed.rmeta --extern stdx=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libstdx-7e50d6fe74a24d08.rmeta --extern syntax=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libsyntax-4d90a48e116ee089.rmeta --extern tt=/Users/jyuan/projects/tmp/rust-analyzer/target/release/deps/libtt-2a1f1fd1bdbb3192.rmeta
+pane	base	2	:logs	1	:*Z	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:bash	0	:-	1	:/Users/jyuan/projects/tmp	1	ssh	:ssh root@39.99.185.170 -p 60022
+pane	devops	1	:QA	1	:*	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	1	:QA	1	:*	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan/projects/zerotrust/demo/mqtt	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan/projects/zerotrust/demo/mqtt	1	bash	:-bash
+pane	devops	3	:bash	0	:-	1	:/Users/jyuan/projects/go/pprof	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	3	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:#	4	:/Users/jyuan/projects/opensources/go	0	bash	:-bash
+pane	opensource	2	:bash	0	:	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	2	:bash	0	:	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	opensource	2	:bash	0	:	3	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	1	:/Users/jyuan/projects/opensources	1	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	2	:/Users/jyuan/projects/opensources	0	bash	:-bash
+pane	opensource	3	:bash	0	:#Z	3	:/Users/jyuan/projects/opensources	0	bash	:-bash
+pane	opensource	4	:bash	0	:-	1	:/Users/jyuan/projects/opensources/go/go.cqrs	1	bash	:-bash
+pane	opensource	5	:bash	1	:*	1	:/Users/jyuan/projects/rust/proj	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:#	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:-	2	:/Users/jyuan/projects/go/test	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:#Z	1	:/Users/jyuan/projects/zerotrust/sdp-agent	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:#Z	2	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	4	:traefik	0	:#	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	5	:zt-console	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	6	:zt-java	0	:#	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	7	:bash	1	:*Z	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	7	:bash	1	:*Z	2	:/Users/jyuan/projects/zerotrust	1	bash	:-bash
+window	base	1	0	:#	d51d,281x69,0,0,0
+window	base	2	1	:*Z	fc06,281x69,0,0[281x34,0,0,1,281x34,0,35,30]
+window	base	3	0	:-	d51f,281x69,0,0,2
+window	devops	1	1	:*	12a3,80x24,0,0[80x11,0,0,3,80x12,0,12,4]
+window	devops	2	0	:	41ac,80x24,0,0[80x12,0,0,5,80x11,0,13,6]
+window	devops	3	0	:-	b264,80x24,0,0,7
+window	opensource	1	0	:#	3b61,281x69,0,0[281x32,0,0{142x32,0,0,8,138x32,143,0,9},281x36,0,33{137x36,0,33,10,143x36,138,33,11}]
+window	opensource	2	0	:	58f6,281x69,0,0{141x69,0,0[141x32,0,0,12,141x36,0,33,13],139x69,142,0,14}
+window	opensource	3	0	:#Z	554e,281x69,0,0{140x69,0,0,15,140x69,141,0[140x33,141,0,16,140x35,141,34,17]}
+window	opensource	4	0	:-	6ac7,281x69,0,0,18
+window	opensource	5	1	:*	6ac1,281x69,0,0,31
+window	zerotrust	1	0	:#	289b,281x69,0,0[281x26,0,0,19,281x42,0,27,20]
+window	zerotrust	2	0	:-	2faf,281x69,0,0{138x69,0,0,21,142x69,139,0,22}
+window	zerotrust	3	0	:#Z	a897,281x69,0,0[281x26,0,0,23,281x42,0,27,24]
+window	zerotrust	4	0	:#	eac4,281x69,0,0,25
+window	zerotrust	5	0	:#	eac5,281x69,0,0,26
+window	zerotrust	6	0	:#	eac6,281x69,0,0,27
+window	zerotrust	7	1	:*Z	289f,281x69,0,0[281x26,0,0,28,281x42,0,27,29]
+state	base	opensource

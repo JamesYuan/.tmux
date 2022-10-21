@@ -1,0 +1,47 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	vim	:-bash
+pane	base	2	:logs	0	:##-Z	1	:/Users/jyuan/org	0	bash	:-bash
+pane	base	2	:logs	0	:##-Z	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	logs	1	:ssh	0	:-	1	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	1	:ssh	0	:-	2	:/Users/jyuan/projects/logs	1	docker	:/usr/local/bin/com.docker.cli exec -it 58fb82753aba /bin/bash
+pane	logs	2	:bash	1	:##*	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	opensource	1	:jumpserver	0	:-	1	:/Users/jyuan/projects/opensources/python/jumpserver	1	bash	:-bash
+pane	opensource	2	:Python	0	:	1	:/Users/jyuan/projects/opensources/python/jumpserver_extra/guacamole-server-1.3.0	1	bash	:-bash
+pane	opensource	3	:bash	1	:##*	1	:/Users/jyuan/projects/wazuh/kibana/plugins/wazuh-kibana-app	1	bash	:-bash
+pane	wazuh	1	:kibana	0	:	1	:/Users/jyuan/projects/wazuh/kibana	0	bash	:-bash
+pane	wazuh	1	:kibana	0	:	2	:/Users/jyuan/projects/wazuh/kibana/plugins/wazuh-kibana-app	1	bash	:-bash
+pane	wazuh	2	:vagrant	0	:	1	:/Users/jyuan/projects	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/.vagrant.d/boxes/centos7template/0/virtualbox/vagrant_private_key
+pane	wazuh	2	:vagrant	0	:	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	3	:145	0	:-	1	:/Users/jyuan/projects/wazuh/tmp	1	ssh	:ssh root@192.168.0.145
+pane	wazuh	3	:145	0	:-	2	:/Users/jyuan/projects/wazuh/tmp	0	bash	:-bash
+pane	wazuh	4	:make	1	:*	1	:/Users/jyuan/projects/wazuh/wazuh/src	1	make	:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -cc1 -triple x86_64-apple-macosx10.8.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name vtls.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -faligned-alloc-unavailable -target-sdk-version=10.15.6 -fcompatibility-qualified-id-block-type-checking -target-cpu core2 -dwarf-column-info -debugger-tuning=lldb -target-linker-version 609.8 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0 -dependency-file vtls/.deps/libcurl_la-vtls.Tpo -skip-unused-modulemap-deps -MT vtls/libcurl_la-vtls.lo -sys-header-deps -MP -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -D HAVE_CONFIG_H -I ../include -I ../lib -I ../lib -D BUILDING_LIBCURL -D CURL_HIDDEN_SYMBOLS -I /usr/local/include -I /usr/local/Cellar/libnghttp2/1.46.0/include -D PIC -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Os -Werror=partial-availability -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -fdebug-compilation-dir /Users/jyuan/projects/wazuh/wazuh/src/external/curl/lib -ferror-limit 19 -fmessage-length 281 -fvisibility hidden -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fobjc-runtime=macosx-10.8.0 -fmax-type-align=16 -fno-common -fdiagnostics-show-option -fcolor-diagnostics -vectorize-loops -vectorize-slp -o vtls/.libs/libcurl_la-vtls.o -x c vtls/vtls.c
+pane	zerotrust	1	:zt-web	0	:	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:	2	:/Users/jyuan/projects/nodejs	0	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:##	1	:/Users/jyuan/projects/zerotrust/zt-tenant	1	node	:node /Users/jyuan/projects/zerotrust/zt-tenant/node_modules/.bin/vue-cli-service serve
+pane	zerotrust	4	:zt-console	0	:##	2	:/Users/jyuan/projects/zerotrust/zt-console	0	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:##-Z	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:##-Z	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:##*	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+window	base	1	1	:*	c91d,281x66,0,0,0
+window	base	2	0	:##-Z	267d,281x66,0,0[281x32,0,0,1,281x33,0,33,2]
+window	base	3	0	:	c920,281x66,0,0,3
+window	logs	1	0	:-	a70c,281x66,0,0[281x33,0,0,4,281x32,0,34,29]
+window	logs	2	1	:##*	64c0,281x66,0,0,30
+window	opensource	1	0	:-	c922,281x66,0,0,5
+window	opensource	2	0	:	c923,281x66,0,0,6
+window	opensource	3	1	:##*	c924,281x66,0,0,7
+window	wazuh	1	0	:	cd8e,281x66,0,0[281x33,0,0,8,281x32,0,34,9]
+window	wazuh	2	0	:	7b51,281x66,0,0[281x33,0,0,10,281x32,0,34,11]
+window	wazuh	3	0	:-	7b54,281x66,0,0[281x33,0,0,12,281x32,0,34,13]
+window	wazuh	4	1	:*	64c1,281x66,0,0,31
+window	zerotrust	1	0	:	4bf2,281x66,0,0{138x66,0,0,15,142x66,139,0,16}
+window	zerotrust	2	0	:	64c6,281x66,0,0,17
+window	zerotrust	3	0	:	64c7,281x66,0,0,18
+window	zerotrust	4	0	:##	3b5a,281x66,0,0[281x33,0,0,19,281x32,0,34,20]
+window	zerotrust	5	0	:##-Z	bb53,281x66,0,0[281x33,0,0,21,281x32,0,34,22]
+window	zerotrust	6	1	:##*	bb18,281x66,0,0[281x32,0,0{140x32,0,0,23,140x32,141,0,24},281x33,0,33,25]
+state	wazuh	base

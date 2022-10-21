@@ -1,0 +1,41 @@
+pane	base	1	:conf	0	:-	1	:/Users/jyuan/.emacs.d	1	bash	:vi /Users/jyuan/.doom.d/init.el
+pane	base	2	:logs	1	:##*	1	:/Users/jyuan	0	bash	:-bash
+pane	base	2	:logs	1	:##*	2	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	devops	1	:QA	0	:-	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	devops	1	:QA	0	:-	2	:/Users/jyuan/projects	1	bash	:-bash
+pane	devops	2	:redis	0	:	1	:/Users/jyuan	0	bash	:-bash
+pane	devops	2	:redis	0	:	2	:/Users/jyuan	1	bash	:-bash
+pane	devops	3	:bash	1	:*	1	:/Users/jyuan/projects/go/pprof	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	1	:vagrant	0	:	2	:/Users/jyuan/projects/zerotrust	0	bash	:-bash
+pane	opensource	1	:vagrant	0	:	3	:/Users/jyuan/projects/zerotrust/sdp-agent	0	bash	:-bash
+pane	opensource	2	:bash	0	:##-	1	:/Users/jyuan/projects/opensources/lua/lua-language-server	1	bash	:-bash
+pane	opensource	2	:bash	0	:##-	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	3	:bash	1	:*	1	:/Users/jyuan/projects/opensources/rbi	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:	1	:/Users/jyuan/projects/zerotrust-it/edge-gateway	1	bash	:-bash
+pane	zerotrust	1	:edge-gateway	0	:	2	:/Users/jyuan/projects/zerotrust-it/edge-gateway	0	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-web	1	bash	:-bash
+pane	zerotrust	2	:zt-web	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	zerotrust	3	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/sdp-agent	1	bash	:-bash
+pane	zerotrust	4	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/traefik	1	bash	:-bash
+pane	zerotrust	5	:zt-console	0	:##	1	:/Users/jyuan/projects/zerotrust/zt-console	1	node	:node /Users/jyuan/projects/zerotrust/zt-console/node_modules/.bin/vue-cli-service serve
+pane	zerotrust	6	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	7	:bash	1	:*	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	0	bash	:-bash
+pane	zerotrust	7	:bash	1	:*	2	:/Users/jyuan/projects/opensources/lua	0	bash	:-bash
+pane	zerotrust	7	:bash	1	:*	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox	1	bash	:-bash
+window	base	1	0	:-	d51d,281x69,0,0,0
+window	base	2	1	:##*	7780,281x69,0,0[281x34,0,0,1,281x34,0,35,2]
+window	devops	1	0	:-	7785,281x69,0,0[281x34,0,0,3,281x34,0,35,4]
+window	devops	2	0	:	9e8a,281x69,0,0[281x35,0,0,5,281x33,0,36,6]
+window	devops	3	1	:*	d524,281x69,0,0,7
+window	opensource	1	0	:	fd32,281x69,0,0[281x34,0,0,8,281x34,0,35{140x34,0,35,9,140x34,141,35,10}]
+window	opensource	2	0	:##-	4e55,281x69,0,0[281x34,0,0,12,281x34,0,35,13]
+window	opensource	3	1	:*	6ac8,281x69,0,0,19
+window	zerotrust	1	0	:	2893,281x69,0,0[281x26,0,0,20,281x42,0,27,21]
+window	zerotrust	2	0	:-	2fb0,281x69,0,0{138x69,0,0,22,142x69,139,0,23}
+window	zerotrust	3	0	:	eac3,281x69,0,0,24
+window	zerotrust	4	0	:	eac4,281x69,0,0,25
+window	zerotrust	5	0	:##	eac5,281x69,0,0,26
+window	zerotrust	6	0	:	eac6,281x69,0,0,27
+window	zerotrust	7	1	:*	de27,281x69,0,0[281x34,0,0{140x34,0,0,28,140x34,141,0,30},281x34,0,35,29]
+state	zerotrust	base

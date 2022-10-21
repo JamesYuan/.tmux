@@ -1,0 +1,18 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.tmux	1	vim	:vi /Users/jyuan/.doom.d/config.el
+pane	base	1	:conf	1	:*	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/projects/logs	1	bash	:-bash
+pane	opensource	1	:bash	0	:-	1	:/Users/jyuan/projects/opensources/lua-language-server	1	bash	:-bash
+pane	opensource	2	:bash	1	:*	1	:/Users/jyuan/projects/opensources/gost	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	zt	1	:zt-nginx	0	:-	1	:/Users/jyuan/projects/zt/zt-nginx	1	bash	:-bash
+pane	zt	1	:zt-nginx	0	:-	2	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt	1	:zt-nginx	0	:-	3	:/Users/jyuan/projects/zt/zt-nginx	0	bash	:-bash
+pane	zt	2	:zt-java	1	:*	1	:/Users/jyuan/projects/zt/zt-java	1	bash	:-bash
+window	base	1	1	:*	df17,316x73,0,0{157x73,0,0,1,158x73,158,0,2}
+window	base	2	0	:-	c000,316x73,0,0,3
+window	opensource	1	0	:-	c002,316x73,0,0,5
+window	opensource	2	1	:*	c003,316x73,0,0,6
+window	redis	1	1	:*	c004,316x73,0,0,7
+window	zt	1	0	:-	92fb,316x62,0,0{157x62,0,0,8,158x62,158,0[158x40,158,0,9,158x21,158,41,10]}
+window	zt	2	1	:*	5d32,316x62,0,0,13
+state	zt	opensource

@@ -1,0 +1,12 @@
+pane	base	1	:bash	0	:#-	1	:/Users/jyuan	1	bash	:-bash
+pane	base	1	:bash	0	:#-	2	:/Users/jyuan	0	vim	:vi /Users/jyuan/.doom.d/init.el
+pane	base	2	:logs	1	:*	1	:/Users/jyuan/dotfiles	1	bash	:/Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-https origin https://github.com/Homebrew/brew
+pane	go	1	:bash	1	:*	1	:/Users/jyuan	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+window	base	1	0	:#-	8b57,202x49,0,0{100x49,0,0,1,101x49,101,0,11}
+window	base	2	1	:*	cf9f,202x49,0,0,2
+window	go	1	1	:*	b265,80x24,0,0,8
+window	opensource	1	1	:*	cfa6,202x49,0,0,9
+window	redis	1	1	:*	67ff,202x49,0,0,10
+state	base	opensource

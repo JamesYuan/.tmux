@@ -1,0 +1,59 @@
+pane	base	1	:conf	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/org	1	bash	:-bash
+pane	base	2	:logs	0	:-	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	base	3	:hugo	0	:	1	:/Users/jyuan/projects/blogs/think	1	bash	:-bash
+pane	logs	1	:ssh	0	:	1	:/Users/jyuan/projects/wazuh/cnvd	0	bash	:-bash
+pane	logs	1	:ssh	0	:	2	:/Users/jyuan/projects/wazuh/cnvd	1	bash	:-bash
+pane	logs	2	:bash	1	:*	1	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	logs	2	:bash	1	:*	2	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	2	:bash	1	:*	3	:/Users/jyuan/projects/tmp	0	bash	:-bash
+pane	logs	3	:bash	0	:-	1	:/Users/jyuan/projects/wazuh/cnvd	1	bash	:-bash
+pane	opensource	1	:Python	1	:*	1	:/Users/jyuan/projects/xml	0	bash	:-bash
+pane	opensource	1	:Python	1	:*	2	:/Users/jyuan/projects/clojure/clojure-noob	1	bash	:-bash
+pane	opensource	2	:bash	0	:-	1	:/Users/jyuan/projects/opensources/bi	1	bash	:-bash
+pane	opensource	3	:gost	0	:	1	:/Users/jyuan/projects	1	bash	:-bash
+pane	opensource	3	:gost	0	:	2	:/Users/jyuan/projects/opensources/go/gost	0	bash	:-bash
+pane	opensource	3	:gost	0	:	3	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	3	:gost	0	:	4	:/Users/jyuan/projects	0	bash	:-bash
+pane	opensource	3	:gost	0	:	5	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	1	:kibana	0	:-	1	:/Users/jyuan/projects/wazuh/kibana	0	bash	:-bash
+pane	wazuh	1	:kibana	0	:-	2	:/Users/jyuan/projects/wazuh/kibana	1	bash	:-bash
+pane	wazuh	2	:vagrant	0	:	1	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	2	:vagrant	0	:	2	:/Users/jyuan/projects	0	bash	:-bash
+pane	wazuh	2	:vagrant	0	:	3	:/Users/jyuan/projects/wazuh/tmp	0	bash	:-bash
+pane	wazuh	2	:vagrant	0	:	4	:/Users/jyuan/projects/tmp	1	bash	:-bash
+pane	wazuh	3	:138	1	:*	1	:/Users/jyuan/projects/opensources/docker	1	ssh	:ssh root@192.168.0.138
+pane	wazuh	3	:138	1	:*	2	:/Users/jyuan/projects/wazuh/tmp	0	ssh	:ssh root@192.168.0.138
+pane	wazuh	3	:138	1	:*	3	:/Users/jyuan/projects/wazuh/tmp	0	ssh	:ssh root@192.168.0.138
+pane	wazuh	4	:ssh	0	:##Z	1	:/Users/jyuan/projects/wazuh/es	1	ssh	:ssh root@192.168.0.41
+pane	wazuh	4	:ssh	0	:##Z	2	:/Users/jyuan/projects/wazuh/es	0	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:-	1	:/Users/jyuan/projects/zerotrust/zt-web	0	bash	:-bash
+pane	zerotrust	1	:zt-web	0	:-	2	:/Users/jyuan/projects/nodejs	1	bash	:-bash
+pane	zerotrust	2	:sdp-agent	0	:	1	:/Users/jyuan/projects/zerotrust/zt-license	1	bash	:-bash
+pane	zerotrust	3	:traefik	0	:	1	:/Users/jyuan/projects/zerotrust/zt-gateway	1	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	1	:/Users/jyuan/projects/zerotrust/zt-tenant	0	bash	:-bash
+pane	zerotrust	4	:zt-console	0	:	2	:/Users/jyuan/projects/zerotrust/zt-console	1	bash	:-bash
+pane	zerotrust	5	:zt-java	0	:	1	:/Users/jyuan/projects/zerotrust/zt-java	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*Z	1	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/base	1	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*Z	2	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/firefox/beats/sqlbeat	0	bash	:-bash
+pane	zerotrust	6	:zt-rbi	1	:*Z	3	:/Users/jyuan/projects/zerotrust/zt-rbi/docker/ui	0	bash	:-bash
+window	base	1	1	:*	b25d,80x24,0,0,0
+window	base	2	0	:-	419a,80x24,0,0[80x12,0,0,1,80x11,0,13,2]
+window	base	3	0	:	b260,80x24,0,0,3
+window	logs	1	0	:	cc27,80x24,0,0{38x24,0,0,4,41x24,39,0,5}
+window	logs	2	1	:*	3264,80x24,0,0{39x24,0,0,6,40x24,40,0[40x11,40,0,7,40x12,40,12,8]}
+window	logs	3	0	:-	b266,80x24,0,0,9
+window	opensource	1	1	:*	9c58,80x24,0,0{38x24,0,0,10,41x24,39,0,11}
+window	opensource	2	0	:-	5961,80x24,0,0,12
+window	opensource	3	0	:	16fe,80x24,0,0[80x12,0,0{39x12,0,0,13,40x12,40,0,14},80x11,0,13{34x11,0,13,15,45x11,35,13[45x1,35,13,16,45x9,35,15,17]}]
+window	wazuh	1	0	:-	bb5c,80x24,0,0[80x13,0,0,18,80x10,0,14,19]
+window	wazuh	2	0	:	e445,80x24,0,0[80x13,0,0{19x13,0,0,20,60x13,20,0,21},80x10,0,14{39x10,0,14,22,40x10,40,14,23}]
+window	wazuh	3	1	:*	cbce,80x24,0,0{39x24,0,0,24,40x24,40,0[40x12,40,0,25,40x11,40,13,26]}
+window	wazuh	4	0	:##Z	67db,80x24,0,0[80x12,0,0,27,80x11,0,13,28]
+window	zerotrust	1	0	:-	97fb,80x24,0,0{37x24,0,0,29,42x24,38,0,30}
+window	zerotrust	2	0	:	5961,80x24,0,0,31
+window	zerotrust	3	0	:	5962,80x24,0,0,32
+window	zerotrust	4	0	:	a7d2,80x24,0,0[80x12,0,0,33,80x11,0,13,34]
+window	zerotrust	5	0	:	5965,80x24,0,0,35
+window	zerotrust	6	1	:*Z	fb1d,281x66,0,0[281x32,0,0{140x32,0,0,36,140x32,141,0,37},281x33,0,33,38]
+state	zerotrust	wazuh

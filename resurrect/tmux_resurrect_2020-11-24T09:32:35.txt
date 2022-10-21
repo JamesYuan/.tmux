@@ -1,0 +1,16 @@
+pane	base	1	:bash	1	:*	1	:/Users/jyuan/.emacs.d	1	bash	:-bash
+pane	base	1	:bash	1	:*	2	:/Users/jyuan	0	bash	:-bash
+pane	base	2	:logs	0	:-	1	:/Users/jyuan/dotfiles	1	bash	:bash ././brew.sh
+pane	go	1	:bash	1	:*	1	:/Users/jyuan/projects/vagrant	1	vagrant	:/usr/local/bin/ssh vagrant@127.0.0.1 -p 2222 -o LogLevel=FATAL -o Compression=yes -o DSAAuthentication=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i /Users/jyuan/projects/vagrant/.vagrant/machines/default/virtualbox/private_key
+pane	go	2	:bash	0	:-	1	:/Users/jyuan	1	bash	:-bash
+pane	nginx	1	:bash	1	:*	1	:/Users/jyuan/projects/nginx	1	bash	:-bash
+pane	opensource	1	:bash	1	:*	1	:/Users/jyuan	1	bash	:-bash
+pane	redis	1	:bash	1	:*	1	:/Users/jyuan/projects	1	bash	:-bash
+window	base	1	1	:*	8b57,202x49,0,0{100x49,0,0,1,101x49,101,0,11}
+window	base	2	0	:-	cf9f,202x49,0,0,2
+window	go	1	1	:*	cfa5,202x49,0,0,8
+window	go	2	0	:-	6801,202x49,0,0,12
+window	nginx	1	1	:*	6802,202x49,0,0,13
+window	opensource	1	1	:*	cfa6,202x49,0,0,9
+window	redis	1	1	:*	67ff,202x49,0,0,10
+state	nginx	base
